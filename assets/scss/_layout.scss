@@ -1,0 +1,224 @@
+//  Table of Contents:
+//
+//   1. Mixins
+//   2. Global
+//   3. Typography
+//   4. Buttons
+//   4. Navigation
+//   5. Sections
+//   6. Section One
+//   7. Section Two
+//   8. Section Three
+//   9. Section Four
+//   10. Projects
+//   11. Contact
+//   12. Footer
+
+
+// 1. Mixins
+// ---------
+
+@mixin links ($link, $hover) {
+  a {
+    color: $link;
+    &:hover {
+      color: $hover;   
+    }
+  }
+}
+
+// 2. Global
+// ---------
+
+body {
+  cursor: default;
+  font-kerning: normal;
+}
+
+.turbolinks-progress-bar {
+  height: 5px;
+  background-color: $primary-color;
+}
+
+
+a {
+  transition: $primary-transition;
+}
+
+svg {
+  max-width: 100%;
+}
+
+::selection {
+  background: $primary-color;
+  color: $secondary-color;
+}
+
+:focus {
+  outline: 0;
+}
+
+.primary-color {
+  color: get-color(primary);
+}
+
+.secondary-color {
+  color: get-color(secondary);
+}
+
+// 3. Typography
+// -------------
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+i, cite, em, var, address, dfn {
+  font-style: normal;
+}
+
+p a {
+  border-bottom: 2px solid $black;
+}
+
+
+// 5. Loading
+// ------
+
+.loader {
+  z-index: 3;
+  position: fixed;
+  background: $white;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%; 
+  opacity: 1;
+  transition: $primary-transition;
+  visibility: visible; 
+  &.loaded {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+
+.work__wrapper {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+// 6. Navigation
+// ------
+
+.work .navigation {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  @include links ($white, $black)
+}
+
+.work .hamburger-inner {
+  &,
+  &::before,
+  &::after {
+    background-color: $white;
+  }
+}
+
+.navigation {
+  @include xy-gutters($gutter-type: padding, $gutter-position: top right bottom left);
+  .cell {
+	z-index: 14; 
+  }
+}
+
+
+// 7. Projects
+// ----------
+
+.projects__list a {
+  display: block;
+  width: 100%;
+  position: relative;
+}
+ 
+.projects__list a:hover img {
+  transition: $primary-transition;
+  filter: saturate(75%) brightness(75%); 
+}
+    
+.projects__list a img {
+  transition: $primary-transition;
+  filter: saturate(100%) brightness(100%); 
+}
+
+// 8. Project
+// ---------
+
+.project__credits {
+  color: $secondary-color;
+}
+
+.project__pagination a {
+  color: $secondary-color;
+  &:hover {
+    color: $black;  
+  }
+}
+
+// 9. Info
+// ---------
+
+.footer {
+  @include xy-gutters($gutter-type: padding, $gutter-position: top right bottom left);
+  @include links ($secondary-color, $white)
+}
+
+.footer a {
+  color: $secondary-color;
+  &:hover {
+    color: $primary-color;   
+  }
+}
+
+.off-canvas {
+  @include links ($black, $white)
+}
+
+.contact {
+  background-color: $black;
+  color: $white;
+  @include links ($white, $primary-color)
+}
+
+.contact .hamburger-inner {
+  &,
+  &::before,
+  &::after {
+    background-color: $white;
+  }
+}
+
+.works__list {
+  color: $white;
+  background-color: $primary-color;
+  @include links ($white, $black);
+}
+
+.works__list {
+  color: $white;
+  background-color: $primary-color;
+  @include links ($white, $black);
+}
+
+.works__list a {
+  display: inline-block;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.works__list .active {
+  color: $black;
+}
