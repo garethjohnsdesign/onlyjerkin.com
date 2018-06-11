@@ -1,0 +1,19 @@
+<!-- Navigation -->
+<div class="grid-x align-justify navigation">
+  
+  <div class="small-6 cell">
+    {% if page.layout == "work" %}
+    <a href="/">{{page.title}}</a>
+    {% else %}
+    <a href="/">Only Jerkin</a>
+    {% endif %}
+  </div>
+  
+  <div class="small-6 cell text-right">
+    <button class="hamburger hamburger--collapse" data-toggler=".is-active" id="toggle" type="button" data-toggle="offCanvas toggle">
+      <span class="hamburger-box"><span class="hamburger-inner"></span></span>
+    </button>
+  </div>
+  
+</div>
+<!-- End Navigation -->

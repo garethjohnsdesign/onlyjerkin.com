@@ -1,0 +1,11 @@
+<script src="/assets/js/min/app-min.js"></script>
+<script defer src="/assets/js/min/svgxuse-min.js"></script>
+
+{% if page.layout == "project" %}
+<script>
+document.body.onkeyup = function(e){
+if (e.keyCode == '37') { window.location = '{{prevurl}}'; }
+if (e.keyCode == '39') { window.location = '{{nexturl}}'; }
+};
+</script>
+{% endif %}
