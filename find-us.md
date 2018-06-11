@@ -1,7 +1,7 @@
 ---
 title: Find Us
 position: 4
-people:
+people: 
 layout: default
 ---
 
