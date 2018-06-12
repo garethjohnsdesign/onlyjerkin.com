@@ -8,6 +8,8 @@
   
   <title>{% if page.layout == 'home' or page.layout == 'holding' %}{{ site.title }}{% else %}{{ page.title | escape }} — {{ site.title | escape }}{% endif %}</title>
   
+  {% seo title=false %}
+  
   <!-- Icons -->
   <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicons/apple-touch-icon.png">
   <link rel="icon" type="image/png" sizes="32x32" href="/assets/favicons/favicon-32x32.png">

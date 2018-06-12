@@ -40,9 +40,8 @@ kramdown:
 highlighter: rouge
 colophon: http://garethjohnsdesign.com
 company: Only Jerkin
-email: 
-google_site_verification: 
-analytics: 
+email: hello
+analytics: UA-120718511-1
 logo: "/assets/img/logo.svg"
 per_page: 12
 date_format: "%d %B %Y"
