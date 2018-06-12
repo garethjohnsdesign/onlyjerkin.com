@@ -12,12 +12,14 @@ layout: compress
 <body>
 
 <div class="grid-y grid-frame align-center">
-<div class="cell shrink text-center">
-
-{% assign image = page.holding-image %}
-{% include images/feature.html %}
-  
+  <div class="cell shrink text-center">
+    <svg class="icon icon-logo"><use xlink:href="/assets/icons/symbol-defs.svg#icon-logo"></use></svg>
+  </div>
 </div>
+
+<div class="holding-image">
+  {% assign image = page.holding-image %}
+  {% include images/feature.html %}
 </div>
 
 <!-- Scripts -->

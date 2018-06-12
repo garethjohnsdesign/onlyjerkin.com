@@ -15,7 +15,7 @@ collections:
     title: Work
     output: true
 url: https://www.onlyjerkin.com
-description: Jamaican Soul Food with a Twist
+description: Jamaican soul food with a twist
 permalink: pretty
 exclude:
 - bower.json

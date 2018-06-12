@@ -201,24 +201,26 @@ p a {
   }
 }
 
-.works__list {
-  color: $white;
-  background-color: $primary-color;
-  @include links ($white, $black);
-}
 
-.works__list {
-  color: $white;
-  background-color: $primary-color;
-  @include links ($white, $black);
+/*
+.holding-image {
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
 }
+*/
 
-.works__list a {
-  display: inline-block;
-  padding-left: 1rem;
-  padding-right: 1rem;
-}
 
-.works__list .active {
-  color: $black;
+.holding-image {
+  width: 100%;
+  height: 100%;
+  z-index: -100;
+  position: absolute;
+  top: 0;
+  left: 0;
+  img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  }
 }
