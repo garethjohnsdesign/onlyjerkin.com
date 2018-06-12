@@ -9,6 +9,13 @@
 	],
 "creatorBuild": "26680",
 "files": {
+	"\/.gitattributes": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/.gitattributes",
+		"oF": 0
+		},
 	"\/404.md": {
 		"cB": 0,
 		"cS": 0,
@@ -69,6 +76,20 @@
 		"oAP": "\/_includes\/image.html",
 		"oF": 0
 		},
+	"\/_includes\/images\/excerpt.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_includes\/images\/excerpt.html",
+		"oF": 0
+		},
+	"\/_includes\/images\/feature.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_includes\/images\/feature.html",
+		"oF": 0
+		},
 	"\/_includes\/item.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -123,6 +144,13 @@
 		"ft": 8192,
 		"oA": 0,
 		"oAP": "\/_layouts\/default.html",
+		"oF": 0
+		},
+	"\/_layouts\/holding.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_layouts\/holding.html",
 		"oF": 0
 		},
 	"\/_layouts\/home.html": {
@@ -200,6 +228,17 @@
 		"oA": 1,
 		"oAP": "\/build\/_site",
 		"oF": 0
+		},
+	"\/_uploads\/only-jerkin-09.jpg": {
+		"ft": 16384,
+		"iS": 4827986,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/_uploads\/only-jerkin-09.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"\/assets\/css\/app.css": {
 		"aP": 0,
@@ -287,63 +326,11 @@
 		"oAP": "\/assets\/favicons\/favicon.ico",
 		"oF": 0
 		},
-	"\/assets\/favicons\/manifest.json": {
-		"ft": 524288,
-		"oA": 1,
-		"oAP": "\/assets\/favicons\/manifest-min.json",
-		"oF": 0,
-		"oO": 0,
-		"oS": 1
-		},
-	"\/assets\/favicons\/mstile-144x144.png": {
-		"ft": 32768,
-		"iS": 1458,
-		"oA": 0,
-		"oAP": "\/assets\/favicons\/mstile-144x144.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
 	"\/assets\/favicons\/mstile-150x150.png": {
 		"ft": 32768,
 		"iS": 1678,
 		"oA": 0,
 		"oAP": "\/assets\/favicons\/mstile-150x150.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/assets\/favicons\/mstile-310x150.png": {
-		"ft": 32768,
-		"iS": 1949,
-		"oA": 0,
-		"oAP": "\/assets\/favicons\/mstile-310x150.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/assets\/favicons\/mstile-310x310.png": {
-		"ft": 32768,
-		"iS": 3857,
-		"oA": 0,
-		"oAP": "\/assets\/favicons\/mstile-310x310.png",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"oT": 1,
-		"q": 100
-		},
-	"\/assets\/favicons\/mstile-70x70.png": {
-		"ft": 32768,
-		"iS": 987,
-		"oA": 0,
-		"oAP": "\/assets\/favicons\/mstile-70x70.png",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,
