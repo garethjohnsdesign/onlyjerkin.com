@@ -1,5 +1,5 @@
 ---
-title: Only Jerkin
+title: Only Jerkin'
 timezone: UTC
 collections:
   notes:
@@ -56,5 +56,4 @@ compress_html:
   blanklines: true
   profile: false
 imgix:
-  source: 
-  secure_url_token: 
+  source: only-jerkin.imgix.net
