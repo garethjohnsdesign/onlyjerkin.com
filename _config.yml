@@ -56,9 +56,4 @@ compress_html:
   blanklines: true
   profile: false
 imgix:
-<<<<<<< HEAD
   source: only-jerkin.imgix.net
-=======
-  source: 
-  secure_url_token: 
->>>>>>> 509321dd863bc7276bac52f81e01ee33006aae77
