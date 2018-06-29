@@ -1,4 +1,13 @@
 @font-face {
+  font-family: 'True North';
+  src: 
+  url('../fonts/true-north.woff2') format('woff2'), 
+  url('../fonts/true-north.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
   font-family: 'Untitled Sans Regular';
   src: 
   url('../fonts/untitled-sans-regular.woff2') format('woff2'), 
@@ -8,10 +17,19 @@
 }
 
 @font-face {
-  font-family: 'Druk Heavy';
+  font-family: 'Type Type';
   src: 
-  url('../fonts/druk-heavy.woff2') format('woff2'), 
-  url('../fonts/druk-heavy.woff') format('woff');
+  url('../fonts/type-type.woff2') format('woff2'), 
+  url('../fonts/type-type.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Lacrima';
+  src: 
+  url('../fonts/lacrimamg-serif.woff2') format('woff2'), 
+  url('../fonts/lacrimamg-serif.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }

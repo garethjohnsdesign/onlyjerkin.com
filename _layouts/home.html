@@ -2,14 +2,108 @@
 layout: default
 ---
 
-<div class="grid-container">
-  
-<!-- Heading -->
-<div class="grid-x grid-padding-y">
-  <div class="small-12 medium-10 cell">
-    <h1>{{site.description}}</h1>
+<!-- Home Hero -->
+<section class="home__hero" style="background-image: url({{page.hero-image}})">
+  <div class="grid-x align-middle align-center" style="height: 100%;">
+    <div class="small-10  medium-8 large-6 cell text-center">
+      <h1 class="primary-font white">{{page.hero-text}}</h1>
+    </div>
   </div>
-</div>
-<!-- End Heading -->
+</section>
+<!-- End Home Hero -->
 
-</div>
+<!-- Home Intro -->
+<section class="grid-container">
+  <div class="grid-x grid-padding-x grid-padding-y align-center">
+    <div class="small-12 medium-10 large-8 cell text-center">
+      <h4>{{page.intro-text}}</h4>
+    </div>
+  </div>
+  
+  <div class="grid-x grid-padding-x grid-padding-y align-center">
+    <div class="small-12 medium-10 large-8 cell text-center">
+      <div class="expanded button-group">
+        <a class="button hollow">Menu</a>
+        <a class="button hollow">Find Us</a>
+        <a class="button hollow">Hire Us</a>
+        <a class="button hollow">About Us</a>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End Home Intro -->
+
+<!-- Home Video -->
+<section class="home__video" style="background-image: url({{page.video-image}})">
+  <div class="grid-x align-middle align-center" style="height: 100%;">
+    <div class="small-11 medium-8 large-6 cell text-center">
+      <a href="https://www.youtube.com/watch?v=HN1mulqwv5g">
+         <svg class="icon icon-play_arrow"><use xlink:href="/assets/icons/symbol-defs.svg#icon-play_arrow"></use></svg>
+         <h4 class="white">Play Video</h4>
+      </a>
+    </div>
+  </div>
+</section>
+<!-- End Home Video -->
+
+<!-- Home Details -->
+<section class="grid-container">
+  <div class="grid-x grid-padding-x grid-padding-y small-up-1 medium-up-2">
+      {% for detail in page.details %}
+      <div class="cell">
+        <h3>{{ detail.title }}</h3>
+        <p>{{ detail.text }}</p>
+      </div>
+      {% endfor %}
+  </div>
+</section>
+<!-- End Home Details -->
+
+<!-- Home Menu Image -->
+<section class="home__menu" style="background-image: url({{page.menu-image}})"></section>
+<!-- End Home Video -->
+
+<!-- Home Menu Items -->
+<section class="grid-container">
+  
+  <div class="grid-x grid-padding-x grid-padding-y small-up-1 medium-up-2 text-center">
+    {% for item in page.menu %}
+    <div class="cell">
+      <h3>{{ item.title }}</h3>
+      <p>{{ item.description }}</p>
+      {% if item.extra %}
+      <p><small>{{ item.extra }}</small></p>
+      {% endif %}
+    </div>
+    {% endfor %}
+  </div>
+  
+  <div class="grid-x grid-padding-x grid-padding-y">
+    <div class="small-12 cell text-center">
+      <a class="button hollow">View Full Menu</a>
+    </div>
+  </div>
+  
+</section>
+<!-- End Home Menu Items -->
+
+<!-- Home Story Image -->
+<section class="home__story" style="background-image: url({{page.story-image}})"></section>
+<!-- End Story Image -->
+
+<!-- Home Story -->
+<section class="grid-container">
+  <div class="grid-x grid-padding-x grid-padding-y align-center">
+    <div class="small-12 medium-10 large-8 cell text-center">
+      <h4>{{page.story-text}}</h4>
+    </div>
+  </div>
+  
+  <div class="grid-x grid-padding-x grid-padding-y">
+    <div class="small-12 cell text-center">
+      <a class="button hollow">Our Story</a>
+    </div>
+  </div>
+  
+</section>
+<!-- End Home Story -->

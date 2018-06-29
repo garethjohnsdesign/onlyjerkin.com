@@ -58,6 +58,9 @@ svg {
   outline: 0;
 }
 
+// 2. Global
+// ---------
+
 .primary-color {
   color: get-color(primary);
 }
@@ -80,6 +83,15 @@ i, cite, em, var, address, dfn {
 p a {
   border-bottom: 2px solid $black;
 }
+
+.primary-font {
+  font-family: $primary-font-family;
+}
+
+.secondary-font {
+  font-family: $secondary-font-family;
+}
+
 
 
 // 5. Loading
@@ -202,25 +214,56 @@ p a {
 }
 
 
-/*
-.holding-image {
-  width: 100%;
-  height: 100vh;
-  object-fit: cover;
+.primary-color {
+  color: get-color(primary);
 }
-*/
 
+.white {
+  color: $white;
+}
 
-.holding-image {
-  width: 100%;
-  height: 100%;
-  z-index: -100;
+.secondary-color {
+  color: get-color(secondary);
+}
+
+.home .navigation {
   position: absolute;
   top: 0;
   left: 0;
-  img {
-  object-fit: cover;
   width: 100%;
-  height: 100%;
-  }
+  @include links ($white, $black)
+}
+
+
+.home__hero {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 80vh;
+}
+
+.home__video {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 80vh;
+}
+
+.home__menu {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 80vh;
+}
+
+.home__story {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 80vh;
+}
+
+footer {
+  background-color: $primary-color;
+  @include links ($white, $black)
 }
