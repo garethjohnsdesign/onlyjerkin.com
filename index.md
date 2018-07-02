@@ -1,5 +1,5 @@
 ---
-title: Home
+title: Only Jerkin
 position: 0
 image: "/assets/img/og-image.png"
 hero-image: "/uploads/only-jerkin-09.jpg"
@@ -34,3 +34,4 @@ story-text: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do ei
 layout: home
 ---
 
+Jamaican Soul Food with a twist

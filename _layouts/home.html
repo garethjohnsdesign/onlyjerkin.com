@@ -2,36 +2,25 @@
 layout: default
 ---
 
-<!-- Home Hero -->
+<!-- Menu Hero -->
 <section class="home__hero" style="background-image: url({{page.hero-image}})">
   <div class="grid-x align-middle align-center" style="height: 100%;">
-    <div class="small-10  medium-8 large-6 cell text-center">
+    <div class="small-10  medium-8 large-6 xxlarge-6 cell text-center">
       <h1 class="primary-font white">{{page.hero-text}}</h1>
     </div>
   </div>
 </section>
-<!-- End Home Hero -->
+<!-- End Menu Hero -->
 
-<!-- Home Intro -->
+<!-- Menu Intro -->
 <section class="grid-container">
   <div class="grid-x grid-padding-x grid-padding-y align-center">
     <div class="small-12 medium-10 large-8 cell text-center">
       <h4>{{page.intro-text}}</h4>
     </div>
   </div>
-  
-  <div class="grid-x grid-padding-x grid-padding-y align-center">
-    <div class="small-12 medium-10 large-8 cell text-center">
-      <div class="expanded button-group">
-        <a class="button hollow">Menu</a>
-        <a class="button hollow">Find Us</a>
-        <a class="button hollow">Hire Us</a>
-        <a class="button hollow">About Us</a>
-      </div>
-    </div>
-  </div>
 </section>
-<!-- End Home Intro -->
+<!-- End Menu Intro -->
 
 <!-- Home Video -->
 <section class="home__video" style="background-image: url({{page.video-image}})">
@@ -67,14 +56,16 @@ layout: default
 <section class="grid-container">
   
   <div class="grid-x grid-padding-x grid-padding-y small-up-1 medium-up-2 text-center">
-    {% for item in page.menu %}
-    <div class="cell">
-      <h3>{{ item.title }}</h3>
-      <p>{{ item.description }}</p>
-      {% if item.extra %}
-      <p><small>{{ item.extra }}</small></p>
-      {% endif %}
-    </div>
+    {% assign menu-items-meta = site.pages | where: 'layout', 'food' | first %}
+      {% assign menu-items = menu-items-meta.menu %}
+      {% for item in menu-items %}
+      <div class="cell">
+        <h3>{{ item.title }}</h3>
+        <p>{{ item.description }}</p>
+        {% if item.extra %}
+        <p><small>{{ item.extra }}</small></p>
+        {% endif %}
+      </div>
     {% endfor %}
   </div>
   
@@ -117,77 +108,31 @@ mapboxgl.accessToken = 'pk.eyJ1IjoiZ2FyZXRoam9obnNkZXNpZ24iLCJhIjoibWRoWDZWUSJ9.
 
 var map = new mapboxgl.Map({
     container: 'map',
-    style: 'mapbox://styles/mapbox/light-v9', //hosted style id
-    center: [-0.145630, 51.542476],
-    zoom: 11.15
+    style: 'mapbox://styles/garethjohnsdesign/cjj4c8f7p46ua2roce0wkb7f9', //hosted style id
+    center: [-0.095194, 51.522795],
+    zoom: 11.80,
+    scrollZoom: false
 });
 
-map.on('load', function () {
-    // Add a layer showing the places.
-    map.addLayer({
-        "id": "places",
-        "type": "symbol",
-        "source": {
-            "type": "geojson",
-            "data": {
-                "type": "FeatureCollection",
-                "features": [{
-                    "type": "Feature",
-                    "properties": {
-                        "description": "<strong>Make it Mount Pleasant</strong><p><a href=\"http://www.mtpleasantdc.com/makeitmtpleasant\" target=\"_blank\" title=\"Opens in a new window\">Make it Mount Pleasant</a> is a handmade and vintage market and afternoon of live entertainment and kids activities. 12:00-6:00 p.m.</p>",
-                        "icon": "theatre"
-                    },
-                    "geometry": {
-                        "type": "Point",
-                        "coordinates": [-0.145630, 51.552476]
-                    }
-                }, {
-                    "type": "Feature",
-                    "properties": {
-                        "description": "<strong>Truckeroo</strong><p><a href=\"http://www.truckeroodc.com/www/\" target=\"_blank\">Truckeroo</a> brings dozens of food trucks, live music, and games to half and M Street SE (across from Navy Yard Metro Station) today from 11:00 a.m. to 11:00 p.m.</p>",
-                        "icon": "theatre"
-                    },
-                    "geometry": {
-                        "type": "Point",
-                        "coordinates": [-0.145630, 51.542476]
-                    }
-                }]
-            }
-        },
-        "layout": {
-            "icon-image": "{icon}-15",
-            "icon-allow-overlap": true
-        }
-    });
+map.on('click', function(e) {
+  var features = map.queryRenderedFeatures(e.point, {
+    layers: ['only-jerkin'] // replace this with the name of the layer
+  });
 
-    // When a click event occurs on a feature in the places layer, open a popup at the
-    // location of the feature, with description HTML from its properties.
-    map.on('click', 'places', function (e) {
-        var coordinates = e.features[0].geometry.coordinates.slice();
-        var description = e.features[0].properties.description;
+  if (!features.length) {
+    return;
+  }
 
-        // Ensure that if the map is zoomed out such that multiple
-        // copies of the feature are visible, the popup appears
-        // over the copy being pointed to.
-        while (Math.abs(e.lngLat.lng - coordinates[0]) > 180) {
-            coordinates[0] += e.lngLat.lng > coordinates[0] ? 360 : -360;
-        }
+  var feature = features[0];
 
-        new mapboxgl.Popup()
-            .setLngLat(coordinates)
-            .setHTML(description)
-            .addTo(map);
-    });
-
-    // Change the cursor to a pointer when the mouse is over the places layer.
-    map.on('mouseenter', 'places', function () {
-        map.getCanvas().style.cursor = 'pointer';
-    });
-
-    // Change it back to a pointer when it leaves.
-    map.on('mouseleave', 'places', function () {
-        map.getCanvas().style.cursor = '';
-    });
-    map.scrollZoom.disable()
-});
+  var popup = new mapboxgl.Popup({ offset: [0, -15] })
+    .setLngLat(feature.geometry.coordinates)
+    .setHTML('<h5>' + feature.properties.title + '</h5><p>' + feature.properties.description + '</p>')
+    .setLngLat(feature.geometry.coordinates)
+    .addTo(map);
+  });
+  
+  var nav = new mapboxgl.NavigationControl();
+  map.addControl(nav, 'top-left');
+  
 </script>

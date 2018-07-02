@@ -58,8 +58,12 @@ svg {
   outline: 0;
 }
 
-// 2. Global
+// 2. Color
 // ---------
+
+.white {
+  color: $white;
+}
 
 .primary-color {
   color: get-color(primary);
@@ -92,148 +96,25 @@ p a {
   font-family: $secondary-font-family;
 }
 
-
-
-// 5. Loading
-// ------
-
-.loader {
-  z-index: 3;
-  position: fixed;
-  background: $white;
-  top: 0;
-  left: 0;
-  height: 100%;
-  width: 100%; 
-  opacity: 1;
-  transition: $primary-transition;
-  visibility: visible; 
-  &.loaded {
-    opacity: 0;
-    visibility: hidden;
-  }
-}
-
-.work__wrapper {
-	position: absolute;
-	top: 0;
-	left: 0;
-}
-
-// 6. Navigation
-// ------
-
-.work .navigation {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  @include links ($white, $black)
-}
-
-.work .hamburger-inner {
-  &,
-  &::before,
-  &::after {
-    background-color: $white;
-  }
-}
+// 3. Navigation
+// -------------
 
 .navigation {
-  @include xy-gutters($gutter-type: padding, $gutter-position: top right bottom left);
   .cell {
 	z-index: 14; 
   }
+  @include links ($white, $white)
 }
 
-
-// 7. Projects
-// ----------
-
-.projects__list a {
-  display: block;
-  width: 100%;
-  position: relative;
-}
- 
-.projects__list a:hover img {
-  transition: $primary-transition;
-  filter: saturate(75%) brightness(75%); 
-}
-    
-.projects__list a img {
-  transition: $primary-transition;
-  filter: saturate(100%) brightness(100%); 
-}
-
-// 8. Project
-// ---------
-
-.project__credits {
-  color: $secondary-color;
-}
-
-.project__pagination a {
-  color: $secondary-color;
-  &:hover {
-    color: $black;  
-  }
-}
-
-// 9. Info
-// ---------
-
-.footer {
-  @include xy-gutters($gutter-type: padding, $gutter-position: top right bottom left);
-  @include links ($secondary-color, $white)
-}
-
-.footer a {
-  color: $secondary-color;
-  &:hover {
-    color: $primary-color;   
-  }
-}
-
-.off-canvas {
-  @include links ($black, $white)
-}
-
-.contact {
-  background-color: $black;
-  color: $white;
-  @include links ($white, $primary-color)
-}
-
-.contact .hamburger-inner {
-  &,
-  &::before,
-  &::after {
-    background-color: $white;
-  }
-}
-
-
-.primary-color {
-  color: get-color(primary);
-}
-
-.white {
-  color: $white;
-}
-
-.secondary-color {
-  color: get-color(secondary);
-}
+// 3. Home
+// -------
 
 .home .navigation {
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
-  @include links ($white, $black)
 }
-
 
 .home__hero {
   background-repeat: no-repeat;
@@ -262,6 +143,93 @@ p a {
   background-position: center center;
   height: 80vh;
 }
+
+.home__hero {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 80vh;
+}
+
+// 3. Food
+// -------
+
+.food .navigation {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  @include links ($black, $black)
+}
+
+.food .hamburger-inner {
+  &,
+  &::before,
+  &::after {
+    background-color: $black;
+  }
+}
+
+// 3. Story
+// -------
+
+.story .navigation {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+// 3. Find Us
+// -------
+
+.find-us .navigation {
+  @include links ($black, $white)
+}
+
+.find-us .hamburger-inner {
+  &,
+  &::before,
+  &::after {
+    background-color: $black;
+  }
+}
+
+// 3. Hire Us
+// -------
+
+.hire-us .navigation {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+
+// 9. Off-canvas
+// ---------
+
+.off-canvas {
+  @include links ($black, $white)
+}
+
+// 9. Contact
+// ---------
+
+.contact {
+  background-color: $black;
+  color: $white;
+  @include links ($white, $primary-color)
+}
+
+.hamburger-inner {
+  &,
+  &::before,
+  &::after {
+    background-color: $white;
+  }
+}
+
 
 footer {
   background-color: $primary-color;

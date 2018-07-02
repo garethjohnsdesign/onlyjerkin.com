@@ -160,6 +160,27 @@
 		"oAP": "\/_layouts\/default.html",
 		"oF": 0
 		},
+	"\/_layouts\/find-us.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_layouts\/find-us.html",
+		"oF": 0
+		},
+	"\/_layouts\/food.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_layouts\/food.html",
+		"oF": 0
+		},
+	"\/_layouts\/hire-us.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_layouts\/hire-us.html",
+		"oF": 0
+		},
 	"\/_layouts\/holding.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -193,6 +214,13 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_layouts\/page.html",
+		"oF": 0
+		},
+	"\/_layouts\/story.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_layouts\/story.html",
 		"oF": 0
 		},
 	"\/_notes\/award-season copy.markdown": {
