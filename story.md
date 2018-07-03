@@ -19,7 +19,7 @@ testimonials:
   cite: Metro
 - text: Only Jerkin' have reached new heights in the art of fried chicken
   cite: VICE
-- text: Only Jerkin' is the festival circuit's signature fried chicken supplie
+- text: Only Jerkin' is the festival circuit's signature fried chicken supplier
   cite: Esquire
 layout: story
 ---
