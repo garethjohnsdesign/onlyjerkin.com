@@ -12,7 +12,7 @@ layout: default
 </section>
 <!-- End Story Hero -->
 
-<!-- Menu Intro -->
+<!-- Story Intro -->
 <section class="grid-container">
   <div class="grid-x grid-padding-x grid-padding-y align-center">
     <div class="small-12 medium-10 large-8 cell text-center">
@@ -20,9 +20,9 @@ layout: default
     </div>
   </div>
 </section>
-<!-- End Home Intro -->
+<!-- End Story Intro -->
 
-<!-- Menu Intro -->
+<!-- Story Text -->
 <section class="grid-container">
   <div class="grid-x grid-padding-x grid-padding-y align-center">
     <div class="small-12 medium-10 large-8 cell text-center">
@@ -30,4 +30,19 @@ layout: default
     </div>
   </div>
 </section>
-<!-- End Home Intro -->
+<!-- End Story Text -->
+
+<!-- Story Text -->
+<section class="grid-container">
+  <div class="grid-x grid-padding-x grid-padding-y align-center">
+    <div class="small-12 medium-10 large-8 cell text-center">
+    {% for testimonial in page.testimonials %}
+    <blockquote>
+        <h4>{{ testimonial.text }}</h4>
+        <cite>{{ testimonial.cite }}</cite>
+    </blockquote>
+    {% endfor %}
+    </div>
+  </div>
+</section>
+<!-- End Story Text -->
