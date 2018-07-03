@@ -7,6 +7,7 @@ intro-text: |-
   We also cater for private events so if your party needs us get in touch via hello@onlyjerkin.com
 locations:
 - title: Kerb Camden
+  map: camden
   description: |-
     Camden Lock Place\
     Camden Town\
@@ -17,18 +18,22 @@ locations:
     Sunday — 11—7
   website: https://www.kerbfood.com
 - title: Kerb Markets
+  map: markets
   description: "Granary Square — N1C 4BH\nWest India Quay — E14 4AE \nGherkin — EC3A
     8EP\nPaddington — W2\n\nPlease visit Kerb’s website for up to date information"
   website: https://www.kerbfood.com
 - title: Street Food Union Soho
+  map: soho
   description: |-
     51-53 Rupert St
-     Soho
+
+    Soho
     London W1D 7PQ
 
     Wednesday-Friday — 11—2
   website: https://www.streetfoodunion.com
 - title: Digbeth Dining Club
+  map: digbeth
   description: "Lower Trinity St\n\LBirmingham \LB9 4AG\n\nPlease visit Digbeth Dining
     Club’s website for upto date information\n"
   website: http://www.digbethdiningclub.co.uk
