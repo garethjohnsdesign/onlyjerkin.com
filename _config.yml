@@ -16,6 +16,7 @@ description: Jamaican soul food with a twist
 permalink: pretty
 exclude:
 - bower.json
+- Gemfile.lock
 - package.json
 - config.codekit3
 - README*
