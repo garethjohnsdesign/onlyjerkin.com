@@ -14,6 +14,13 @@ details:
 - title: Our Ethics
   text: All our packaging i.e boxes, napkins, cutlery is environmentally friendly
     and compostable. We try as much as possible to recycle or compost our waste.
+testimonials:
+- text: This Chicken could be the best Street Food Ever
+  cite: Metro
+- text: Only Jerkin' have reached new heights in the art of fried chicken
+  cite: VICE
+- text: Only Jerkin' is the festival circuit's signature fried chicken supplie
+  cite: Esquire
 layout: story
 ---
 
