@@ -1,6 +1,6 @@
 ---
 title: Story
-position: 4
+position: 2
 hero-image: "/uploads/only-jerkin-13.jpg"
 hero-text: Our Story
 intro-text: Only Jerkin' set out in January 2016 to celebrate and promote all that
