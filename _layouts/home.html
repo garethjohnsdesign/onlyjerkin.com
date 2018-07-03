@@ -37,13 +37,15 @@ layout: default
 
 <!-- Home Details -->
 <section class="grid-container">
-  <div class="grid-x grid-padding-x grid-padding-y small-up-1 medium-up-2">
-      {% for detail in page.details %}
-      <div class="cell">
+  <div class="grid-x grid-padding-x grid-padding-y">
+    {% assign detail-items-meta = site.pages | where: 'layout', 'story' | first %}
+    {% assign detail-items = detail-items-meta.details %}
+    {% for detail in detail-items %}
+      <div class="small-12 medium-6 cell">
         <h3>{{ detail.title }}</h3>
         <p>{{ detail.text }}</p>
       </div>
-      {% endfor %}
+    {% endfor %}
   </div>
 </section>
 <!-- End Home Details -->
@@ -57,8 +59,8 @@ layout: default
   
   <div class="grid-x grid-padding-x grid-padding-y small-up-1 medium-up-2 text-center">
     {% assign menu-items-meta = site.pages | where: 'layout', 'food' | first %}
-      {% assign menu-items = menu-items-meta.menu %}
-      {% for item in menu-items %}
+    {% assign menu-items = menu-items-meta.menu %}
+    {% for item in menu-items %}
       <div class="cell">
         <h3>{{ item.title }}</h3>
         <p>{{ item.description }}</p>
@@ -86,16 +88,12 @@ layout: default
 <section class="grid-container">
   <div class="grid-x grid-padding-x grid-padding-y align-center">
     <div class="small-12 medium-10 large-8 cell text-center">
-      <h4>{{page.story-text}}</h4>
+    {% assign story-text-meta = site.pages | where: 'layout', 'story' | first %}
+    {% assign story-text = story-text-meta.intro-text %}
+    <h4>{{story-text}}</h4>
+    <a class="button hollow">Our Story</a>
     </div>
-  </div>
-  
-  <div class="grid-x grid-padding-x grid-padding-y">
-    <div class="small-12 cell text-center">
-      <a class="button hollow">Our Story</a>
-    </div>
-  </div>
-  
+  </div>  
 </section>
 <!-- End Home Story -->
 

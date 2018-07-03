@@ -5,6 +5,15 @@ hero-image: "/uploads/only-jerkin-13.jpg"
 hero-text: Our Story
 intro-text: Only Jerkin' set out in January 2016 to celebrate and promote all that
   is great about Jamaican soul food
+details:
+- title: Our Food
+  text: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
+    irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat
+- title: Our Ethics
+  text: All our packaging i.e boxes, napkins, cutlery is environmentally friendly
+    and compostable. We try as much as possible to recycle or compost our waste.
 layout: story
 ---
 
