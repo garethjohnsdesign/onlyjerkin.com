@@ -11,9 +11,6 @@ collections:
   uploads:
     title: Uploads
     output: false
-  work:
-    title: Work
-    output: true
 url: https://www.onlyjerkin.com
 description: Jamaican soul food with a twist
 permalink: pretty
