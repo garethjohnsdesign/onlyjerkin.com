@@ -1,7 +1,7 @@
 ---
 title: Hire Us
 position: 4
-hero-image: "/uploads/only-jerkin-13.jpg"
+hero-image: "/uploads/only-jerkin-11.jpg"
 hero-text: Hire Us
 intro-text: Only Jerkin' set out in January 2016 to celebrate and promote all that
   is great about Jamaican soul food

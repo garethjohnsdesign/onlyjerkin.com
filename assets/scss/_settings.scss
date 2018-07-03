@@ -123,7 +123,7 @@ $breakpoints: (
   xxlarge: 1440px,
 );
 $print-breakpoint: large;
-$breakpoint-classes: (small medium large);
+$breakpoint-classes: (small medium large xxlarge);
 
 // 3. The Grid
 // -----------
@@ -170,7 +170,7 @@ $header-styles: (
 */
 $header-styles: (
   'small': (
-    'h1': ('font-size': 24, 'line-height': 1.1, 'margin-top': 0, 'margin-bottom': $header-margin-bottom),
+    'h1': ('font-size': 40, 'line-height': 1.1, 'margin-top': 0, 'margin-bottom': $header-margin-bottom),
     'h2': ('font-size': 20, 'line-height': $header-lineheight, 'margin-top': 0, 'margin-bottom': $header-margin-bottom),
     'h3': ('font-size': 19, 'line-height': $header-lineheight, 'margin-top': 0, 'margin-bottom': $header-margin-bottom),
     'h4': ('font-size': 18, 'line-height': $header-lineheight, 'margin-top': 0, 'margin-bottom': $header-margin-bottom),
