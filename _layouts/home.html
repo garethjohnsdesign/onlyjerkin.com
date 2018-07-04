@@ -101,6 +101,40 @@ layout: default
 <div id='map' style='width: 100%; height: 80vh;'></div>
 <!-- End Home Map -->
 
+<!-- Home Locations -->
+<section class="grid-container">
+<div class="grid-x grid-padding-x grid-padding-y align-center">
+  <div class="small-12 medium-10 large-8 cell text-center">
+{% assign locations-meta = site.pages | where: 'layout', 'find-us' | first %}
+{% assign locations = locations-meta.locations %}
+{% for location in locations %}
+<h3>{{ location.title }}</h3>
+{{ location.description | markdownify }}
+<a href="{{ location.website }}" target="_blank">Visit Site</a>
+{% endfor %}
+</div>
+</div>
+</section>
+<!-- End Home Locations -->
+
+<!-- Home Hire Us -->
+<section class="grid-container">
+  <div class="grid-x grid-padding-x grid-padding-y align-center">
+    <div class="small-12 medium-10 large-8 cell text-center">
+    {% assign hire-us-meta = site.pages | where: 'layout', 'hire-us' | first %}
+    {% assign hire-us-text = hire-us-meta.intro-text %}
+    <h4>Hire Us</h4>
+    {{hire-us-text}}
+    </div>
+    
+    <div class="small-12 medium-10 large-8 cell text-center">
+    <a class="button hollow">Hire Us</a>
+    </div>
+        
+  </div>  
+</section>
+<!-- End Home Hire US -->
+
 <script>
 mapboxgl.accessToken = 'pk.eyJ1IjoiZ2FyZXRoam9obnNkZXNpZ24iLCJhIjoibWRoWDZWUSJ9.n1A58EO10IDrB5yIAKqAPA';
 

@@ -132,6 +132,13 @@
 		"oAP": "\/_includes\/subscribe.html",
 		"oF": 0
 		},
+	"\/_includes\/testimonials.html": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_includes\/testimonials.html",
+		"oF": 0
+		},
 	"\/_layouts\/about.html": {
 		"cB": 0,
 		"ft": 8192,
