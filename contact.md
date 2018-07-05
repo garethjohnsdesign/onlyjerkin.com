@@ -25,15 +25,8 @@ details:
   text: Whether you loved it or felt we could do better, we want to hear it so we
     can either say thanks or make sure we put it right next time.
 - title: Legal
-  text: |-
-    Only Jerkin Ltd  
-    11 Merlins Court  
-    30 Margery Street  
-    London, United Kingdom  
-    WC1X 0JG
-
-    Company — 11369782  
-    VAT — 289538833
+  text: "Only Jerkin Ltd  \n11 Merlins Court  \n30 Margery Street  \nLondon, United
+    Kingdom  \nWC1X 0JG\n\nCompany — 11369782  \nVAT — 289538833"
 layout: contact
 ---
 
