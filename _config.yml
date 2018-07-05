@@ -30,6 +30,7 @@ plugins:
 - jekyll/imgix
 markdown: kramdown
 kramdown:
+  auto_ids: false
   input: GFM
   hard_wrap: false
 highlighter: rouge
