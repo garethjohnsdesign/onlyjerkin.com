@@ -3,7 +3,7 @@ layout: default
 ---
 
 <!-- Story Hero -->
-<section class="home__hero" style="background-image: url({{page.hero-image}})">
+<section class="hero" style="background-image: url({{page.hero-image}})">
   <div class="grid-x align-middle align-center" style="height: 100%;">
     <div class="small-10  medium-8 large-6 cell text-center">
       <h1 class="primary-font white">{{page.hero-text}}</h1>
@@ -13,10 +13,10 @@ layout: default
 <!-- End Story Hero -->
 
 <!-- Story Intro -->
-<section class="grid-container">
+<section class="grid-container margin-top-2">
   <div class="grid-x grid-padding-x grid-padding-y align-center">
-    <div class="small-12 medium-10 large-10 cell text-center">
-      <h4>{{page.intro-text}}</h4>
+    <div class="small-12 medium-11 large-11 cell text-center">
+      <h4 class="primary-font">{{page.intro-text}}</h3>
     </div>
   </div>
 </section>
@@ -38,7 +38,7 @@ layout: default
     <div class="small-12 medium-10 large-8 cell text-center">
     {% for testimonial in page.testimonials %}
     <blockquote>
-        <h4>{{ testimonial.text }}</h4>
+        <h4 class="primary-font">{{ testimonial.text }}</h4>
         <cite>{{ testimonial.cite }}</cite>
     </blockquote>
     {% endfor %}

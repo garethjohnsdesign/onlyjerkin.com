@@ -3,7 +3,7 @@ layout: default
 ---
 
 <!-- Menu Hero -->
-<section class="home__hero" style="background-image: url({{page.hero-image}})">
+<section class="hero" style="background-image: url({{page.hero-image}})">
   <div class="grid-x align-middle align-center" style="height: 100%;">
     <div class="small-10  medium-8 large-6 cell text-center">
       <h1 class="primary-font white">{{page.hero-text}}</h1>
@@ -13,7 +13,7 @@ layout: default
 <!-- End Menu Hero -->
 
 <!-- Menu Intro -->
-<section class="grid-container">
+<section class="grid-container margin-top-2 margin-bottom-2">
   <div class="grid-x grid-padding-x grid-padding-y align-center">
     <div class="small-12 medium-10 large-10 cell text-center">
       <h4>{{page.intro-text}}</h4>
@@ -28,7 +28,7 @@ layout: default
   <div class="grid-x grid-padding-x grid-padding-y text-center">
     {% for item in page.menu %}
     <div class="small-12 cell">
-      <h3>{{ item.title }}</h3>
+      <h3 class="primary-font">{{ item.title }}</h3>
       <p>{{ item.description }}</p>
       {% if item.extra %}
       <p><small>{{ item.extra }}</small></p>

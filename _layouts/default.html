@@ -26,9 +26,12 @@ layout: compress
 {{content}}
 <!-- End Content -->
 
+{% unless page.layout == "story" %}
 <!-- Testimonials -->
 {% include testimonials.html %}
 <!-- End Testimonials-->
+{% endunless %}
+
 
 <!-- Subscribe -->
 {% include subscribe.html %}

@@ -1,8 +1,8 @@
 <!-- Testimonials -->
-<section class="grid-x grid-padding-x grid-padding-y align-justify">  
+<section class="grid-x grid-padding-x grid-padding-y align-center">  
 
 
-  <div class="small-12 cell text-center">
+  <div class="small-12 medium-8 large-6 cell text-center">
     
     <div class="orbit" role="region" aria-label="Testimonials" data-orbit data-next-class="orbit-slide" data-options="animInFromLeft:fade-in; animInFromRight:fade-in; animOutToLeft:fade-out; animOutToRight:fade-out;">
       <div class="orbit-wrapper">
@@ -13,7 +13,7 @@
           {% for testimonial in testimonials %}
             <li class="orbit-slide">
             <blockquote>
-              <h4>{{ testimonial.text }}</h4>
+              <h3 class="primary-font">"{{ testimonial.text }}"</h3>
               <cite>{{ testimonial.cite }}</cite>
             </blockquote>
             </li>

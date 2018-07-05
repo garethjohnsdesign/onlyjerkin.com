@@ -66,8 +66,8 @@
 // ---------
 
 $global-font-size: 100%;
-// $global-width: rem-calc(1200);
-$global-width: rem-calc(1024);
+$global-width: rem-calc(1200);
+// $global-width: rem-calc(1024);
 $global-lineheight: 1.5;
 /*
 $foundation-palette: (
@@ -186,7 +186,7 @@ $header-styles: (
     'h6': ('font-size': 14, 'line-height': $header-lineheight, 'margin-top': 0, 'margin-bottom': $header-margin-bottom)
   ),
   'large': (
-    'h1': ('font-size': 64, 'line-height': 1.1, 'margin-top': 0, 'margin-bottom': $header-margin-bottom),
+    'h1': ('font-size': 72, 'line-height': 1.1, 'margin-top': 0, 'margin-bottom': $header-margin-bottom),
     'h2': ('font-size': 40, 'line-height': 1.1, 'margin-top': 0, 'margin-bottom': $header-margin-bottom),
     'h3': ('font-size': 31, 'line-height': $header-lineheight, 'margin-top': 0, 'margin-bottom': $header-margin-bottom),
     'h4': ('font-size': 24, 'line-height': $header-lineheight, 'margin-top': 0, 'margin-bottom': $header-margin-bottom),

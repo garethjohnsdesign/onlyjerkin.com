@@ -6,7 +6,7 @@ layout: default
 <section class="grid-container">
   <div class="grid-x grid-padding-x grid-padding-y align-center">
     <div class="small-12 medium-10 large-10 cell text-center">
-      <h4>{{page.intro-text}}</h4>
+      {{page.intro-text | markdownify}}
     </div>
   </div>
 </section>
@@ -27,7 +27,7 @@ layout: default
       <!-- Home Map -->
       <div id="{{ location.map }}" style="width: 100%; height: 20rem" class="margin-bottom-1"></div>
       <!-- End Home Map -->
-      <h3>{{ location.title }}</h3>
+      <h3 class="primary-font">{{ location.title }}</h3>
       {{ location.description | markdownify }}
       <a href="{{ location.website }}" target="_blank">Visit Site</a>
     </div>
@@ -43,7 +43,7 @@ layout: default
 <section class="grid-container">
   
   <div class="grid-x grid-padding-x grid-padding-y align-center">
-    <div class="small-12 medium-10 large-8 cell text-center">
+    <div class="small-12 medium-10 large-10 cell text-center">
       <h2 class="primary-font">Events</h2>
       <h4>{{page.events-text}}</h4>
     </div>
@@ -52,7 +52,7 @@ layout: default
   <div class="grid-x grid-padding-x grid-padding-y">
     {% for event in page.events %}
     <div class="small-12 cell text-center">
-      <h3>{{ event.title }}</h3>
+      <h3 class="primary-font">{{ event.title }}</h3>
       <div>{{ event.start-date | date: site.date_format }} - {{ event.end-date | date: site.date_format }}</div>
       <div>{{ event.location }}</div>
       <a href="{{ location.website }}" target="_blank">Site</a>
