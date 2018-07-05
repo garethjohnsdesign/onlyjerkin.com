@@ -3,7 +3,8 @@ title: Story
 position: 2
 hero-image: "/uploads/only-jerkin-13.jpg"
 hero-text: Our Story
-intro-text: Only Jerkin' set out in January 2016 to celebrate and promote all that is great about Jamaican soul food
+intro-text: Only Jerkin' set out in January 2016 to celebrate and promote all that
+  is great about Jamaican soul food
 details:
 - title: Our Food
   text: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor

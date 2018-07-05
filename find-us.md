@@ -8,42 +8,23 @@ intro-text: |-
 locations:
 - title: Kerb Camden
   map: camden
-  description: |-
-    Camden Lock Place  
-    Camden Town  
-    London NW1 8AF
-
-    Monday - Friday — 11—6  
-    Saturday — 11—7  
-    Sunday — 11—7
+  description: "Camden Lock Place  \nCamden Town  \nLondon NW1 8AF\n\nMonday - Friday
+    — 11—6  \nSaturday — 11—7  \nSunday — 11—7"
   website: https://www.kerbfood.com
 - title: Kerb Markets
   map: markets
-  description: |-
-    Granary Square — N1C 4BH  
-    West India Quay — E14 4AE  
-    Gherkin — EC3A 8EP  
-    Paddington — W2  
-
-    Please visit Kerb’s website for up to date information
+  description: "Granary Square — N1C 4BH  \nWest India Quay — E14 4AE  \nGherkin —
+    EC3A 8EP  \nPaddington — W2  \n\nPlease visit Kerb’s website for up to date information"
   website: https://www.kerbfood.com
 - title: Street Food Union Soho
   map: soho
-  description: |-
-    51-53 Rupert St  
-    Soho  
-    London W1D 7PQ  
-
-    Wednesday-Friday — 11—2
+  description: "51-53 Rupert St  \nSoho  \nLondon W1D 7PQ  \n\nWednesday-Friday —
+    11—2"
   website: https://www.streetfoodunion.com
 - title: Digbeth Dining Club
   map: digbeth
-  description: |-
-    Lower Trinity St  
-    Birmingham  
-    LB9 4AG
-
-    Please visit Digbeth Dining Club’s website for upto date information
+  description: "Lower Trinity St  \nBirmingham  \nLB9 4AG\n\nPlease visit Digbeth
+    Dining Club’s website for upto date information"
   website: http://www.digbethdiningclub.co.uk
 events-text: Here's all the exciting stuff we have planned. Make sure you keep checking
   back so you can join us on our adventure. We'll be updating this regularly or you
