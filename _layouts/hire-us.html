@@ -33,57 +33,57 @@ layout: default
 <!-- End Home Intro -->
 
 
-<form>
+<form name="hire-us" method="POST" netlify>
   <div class="grid-container">
     <div class="grid-x grid-padding-x">
       <div class="small-12 medium-6 cell">
         <label>First Name
-          <input type="text">
+          <input type="text" name="First Name">
         </label>
       </div>
       <div class="small-12 medium-6 cell">
         <label>Last Name
-          <input type="text">
+          <input type="text" name="Last Name">
         </label>
       </div>
       <div class="small-12 medium-6 cell">
         <label>Email
-          <input type="text">
+          <input type="email" name="Email">
         </label>
       </div>
       <div class="small-12 medium-6 cell">
         <label>Phone Number
-          <input type="text">
+          <input type="text" name="Phone">
         </label>
       </div>
             <div class="small-12 medium-6 cell">
         <label>Number of People
-          <input type="number" value="10">
+          <input type="number" value="10" name="Number of Peope">
         </label>
       </div>
       <div class="small-12 medium-6 cell">
         <label>Event Date
-          <input type="text">
+          <input type="text" name="Event Date">
         </label>
-        <p class="help-text" id="passwordHelpText">If not confirmed yet, please just give us a rough idea of the location</p>
+        <p class="help-text">If not confirmed yet, please just give us a rough idea of the location</p>
       </div>
       <div class="small-12 medium-6 cell">
         <label>Type of Event
           <select>
-            <option value="festival">Festival</option>
-            <option value="wedding">Wedding</option>
-            <option value="event">Event</option>
+            <option value="festival" name="Type of Event">Festival</option>
+            <option value="wedding" name="Type of Event">Wedding</option>
+            <option value="event" name="Type of Event">Event</option>
           </select>
         </label>
       </div>
       <div class="small-12 medium-6 cell">
         <label>Location
-          <input type="text">
+          <input type="text" name="Location">
         </label>
       </div>
       <div class="small-12 medium-12 cell">
         <label>Tell Us More
-          <textarea rows="12" placeholder="Please let us know if you have any food intolerances or allergies, buget, theme, speicial dietrary needs"></textarea>
+          <textarea rows="12" name="Notes" placeholder="Please let us know if you have any food intolerances or allergies, buget, theme, speicial dietrary needs"></textarea>
         </label>
       </div>
       
