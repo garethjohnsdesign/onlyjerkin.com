@@ -272,12 +272,6 @@
 		"oAP": "\/_notes\/film-workshop.markdown",
 		"oF": 0
 		},
-	"\/_site": {
-		"ft": 65536,
-		"oA": 1,
-		"oAP": "\/build\/_site",
-		"oF": 0
-		},
 	"\/_uploads\/only-jerkin-01.jpg": {
 		"ft": 16384,
 		"iS": 2931575,
@@ -353,6 +347,17 @@
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 1,
+		"q": 100
+		},
+	"\/_uploads\/only-jerkin-09.jpg": {
+		"ft": 16384,
+		"iS": 4249587,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "\/_uploads\/only-jerkin-09.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
 		"q": 100
 		},
 	"\/_uploads\/only-jerkin-10.jpg": {
