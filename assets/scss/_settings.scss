@@ -65,7 +65,8 @@
 // 1. Global
 // ---------
 
-$global-font-size: 100%;
+// $global-font-size: 100%;
+$global-font-size: 18px;
 $global-width: rem-calc(1200);
 // $global-width: rem-calc(1024);
 $global-lineheight: 1.5;
@@ -100,7 +101,8 @@ $global-padding: 1rem;
 $global-position: 1rem;
 $global-weight-normal: normal;
 $global-weight-bold: bold;
-$global-radius: 0;
+// $global-radius: 0;
+$global-radius: 1px;
 $global-menu-padding: 0.7rem 1rem;
 $global-menu-nested-margin: 1rem;
 $global-text-direction: ltr;

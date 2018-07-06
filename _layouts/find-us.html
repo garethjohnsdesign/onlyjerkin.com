@@ -44,8 +44,8 @@ layout: default
   
   <div class="grid-x grid-padding-x grid-padding-y align-center">
     <div class="small-12 medium-10 large-10 cell text-center">
-      <h2 class="primary-font">Events</h2>
-      <h4>{{page.events-text}}</h4>
+      <h2 class="primary-font margin-bottom-2">Events</h2>
+      {{page.events-text | markdownify}}
     </div>
   </div>
   

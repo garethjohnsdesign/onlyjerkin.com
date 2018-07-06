@@ -186,6 +186,20 @@ p a {
   width: 100%;
 }
 
+// 3. Page
+// -------
+
+.page .navigation {
+  @include links ($black, $primary-color)
+}
+
+.page .hamburger-inner {
+  &,
+  &::before,
+  &::after {
+    background-color: $black;
+  }
+}
 
 // 9. Off-canvas
 // ---------
