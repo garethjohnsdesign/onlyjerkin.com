@@ -165,7 +165,7 @@ p a {
 // -------
 
 .find-us .navigation {
-  @include links ($black, $white)
+  @include links ($black, $black)
 }
 
 .find-us .hamburger-inner {

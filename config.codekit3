@@ -272,6 +272,12 @@
 		"oAP": "\/_notes\/film-workshop.markdown",
 		"oF": 0
 		},
+	"\/_site": {
+		"ft": 65536,
+		"oA": 1,
+		"oAP": "\/build\/_site",
+		"oF": 0
+		},
 	"\/_uploads\/only-jerkin-01.jpg": {
 		"ft": 16384,
 		"iS": 2931575,
@@ -6556,7 +6562,7 @@
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
-		"oA": 2,
+		"oA": 1,
 		"oAP": "\/bower_components\/lightgallery\/dist\/js\/lightgallery.min.js",
 		"oF": 0,
 		"sC": 1,
@@ -6763,7 +6769,7 @@
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
-		"oA": 2,
+		"oA": 1,
 		"oAP": "\/bower_components\/lightgallery\/modules\/lg-video.min.js",
 		"oF": 0,
 		"sC": 1,
@@ -8826,6 +8832,18 @@
 			"followForSyntaxChecking": 0,
 			"linkedFileAbbreviatedPath": "\/bower_components\/aos\/dist\/aos.js",
 			"position": 2,
+			"type": 0
+			},
+		{
+			"followForSyntaxChecking": 0,
+			"linkedFileAbbreviatedPath": "\/bower_components\/lightgallery\/dist\/js\/lightgallery.min.js",
+			"position": 3,
+			"type": 0
+			},
+		{
+			"followForSyntaxChecking": 0,
+			"linkedFileAbbreviatedPath": "\/bower_components\/lightgallery\/modules\/lg-video.min.js",
+			"position": 4,
 			"type": 0
 			}
 		],
