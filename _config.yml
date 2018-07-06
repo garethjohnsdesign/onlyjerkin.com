@@ -2,23 +2,18 @@
 title: Only Jerkin'
 timezone: UTC
 collections:
-  notes:
-    title: Notes
-    output: true
   posts:
     title: Posts
     output: true
   uploads:
     title: Uploads
     output: false
-  work:
-    title: Work
-    output: true
 url: https://www.onlyjerkin.com
-description: Jamaican Soul Food with a Twist
+description: Jamaican soul food with a twist
 permalink: pretty
 exclude:
 - bower.json
+- Gemfile.lock
 - package.json
 - config.codekit3
 - README*
@@ -35,20 +30,23 @@ plugins:
 - jekyll/imgix
 markdown: kramdown
 kramdown:
+  auto_ids: false
   input: GFM
   hard_wrap: false
 highlighter: rouge
 colophon: http://garethjohnsdesign.com
 company: Only Jerkin
-email: 
-google_site_verification: 
-analytics: 
+email: hello@onlyjerkin.com
+analytics: UA-120718511-1
 logo: "/assets/img/logo.svg"
 per_page: 12
 date_format: "%d %B %Y"
 future: true
 social:
-  instagram: 
+  instagram: https://www.instagram.com/onlyjerkin/
+  facebook: https://www.facebook.com/onlyjerkin/
+  twitter: https://twitter.com/onlyjerkin
+  spotify: https://www.spotify.com
 compress_html:
   comments:
   - "<!-- "

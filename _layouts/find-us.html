@@ -1,0 +1,144 @@
+---
+layout: default
+---
+
+<!-- Find Us Intro -->
+<section class="grid-container">
+  <div class="grid-x grid-padding-x grid-padding-y align-center">
+    <div class="small-12 medium-10 large-10 cell text-center">
+      {{page.intro-text | markdownify}}
+    </div>
+  </div>
+</section>
+<!-- End Find Us Intro -->
+
+<!-- Find Us Locations -->
+<section class="grid-container">
+  
+  <div class="grid-x grid-padding-x grid-padding-y align-center">
+    <div class="small-12 medium-10 large-8 cell text-center">
+      <h2 class="primary-font">Locations</h2>
+    </div>
+  </div>
+  
+  <div class="grid-x grid-padding-x grid-padding-y">
+    {% for location in page.locations %}
+    <div class="small-12 medium-6 cell">
+      <!-- Home Map -->
+      <div id="{{ location.map }}" style="width: 100%; height: 20rem" class="margin-bottom-1"></div>
+      <!-- End Home Map -->
+      <h3 class="primary-font">{{ location.title }}</h3>
+      {{ location.description | markdownify }}
+      <a href="{{ location.website }}" target="_blank">Visit Site</a>
+    </div>
+    {% endfor %}
+  </div>
+  
+  
+</section>
+<!-- End Find Us Locations -->
+
+
+<!-- Find Us Events -->
+<section class="grid-container">
+  
+  <div class="grid-x grid-padding-x grid-padding-y align-center">
+    <div class="small-12 medium-10 large-10 cell text-center">
+      <h2 class="primary-font margin-bottom-2">Events</h2>
+      {{page.events-text | markdownify}}
+    </div>
+  </div>
+  
+  <div class="grid-x grid-padding-x grid-padding-y">
+    {% for event in page.events %}
+    <div class="small-12 cell text-center">
+      <h3 class="primary-font">{{ event.title }}</h3>
+      <div>{{ event.start-date | date: site.date_format }} - {{ event.end-date | date: site.date_format }}</div>
+      <div>{{ event.location }}</div>
+      <a href="{{ location.website }}" target="_blank">Site</a>
+    </div>
+    {% endfor %}
+  </div>
+  
+  
+</section>
+<!-- End Find Us Locations -->
+
+
+<script>
+mapboxgl.accessToken = 'pk.eyJ1IjoiZ2FyZXRoam9obnNkZXNpZ24iLCJhIjoibWRoWDZWUSJ9.n1A58EO10IDrB5yIAKqAPA';
+
+var camden = new mapboxgl.Map({
+    container: 'camden',
+    style: 'mapbox://styles/garethjohnsdesign/cjj5rkw8r0scq2slhc07jynt9', //hosted style id
+    center: [-0.146234, 51.542325],
+    zoom: 13.88,
+    scrollZoom: false,
+});
+
+var markets = new mapboxgl.Map({
+    container: 'markets',
+    style: 'mapbox://styles/garethjohnsdesign/cjj5s21m60sws2sqprdkyn2b9', //hosted style id
+    center: [-0.103010, 51.525540],
+    zoom: 10.36,
+    scrollZoom: false
+});
+
+var soho = new mapboxgl.Map({
+    container: 'soho',
+    style: 'mapbox://styles/garethjohnsdesign/cjj5trasm02ro2rltww0sw7fc', //hosted style id
+    center: [-0.133705, 51.512982],
+    zoom: 15.00,
+    scrollZoom: false
+});
+
+var digbeth = new mapboxgl.Map({
+    container: 'digbeth',
+    style: 'mapbox://styles/garethjohnsdesign/cjj5v8nuq0vvn2spmsj85384n', //hosted style id
+    center: [-1.881672, 52.476318],
+    zoom: 14.00,
+    scrollZoom: false
+});
+
+
+var camdenNav = new mapboxgl.NavigationControl();
+camden.addControl(camdenNav, 'top-left');
+
+var marketsNav = new mapboxgl.NavigationControl();
+markets.addControl(marketsNav, 'top-left');
+
+var sohoNav = new mapboxgl.NavigationControl();
+soho.addControl(sohoNav, 'top-left');
+
+var digbethNav = new mapboxgl.NavigationControl();
+digbeth.addControl(digbethNav, 'top-left');
+  
+/*
+map.on('mouseenter', 'symbols', function () {
+        map.getCanvas().style.cursor = 'pointer';
+    });
+
+map.on('click', function(e) {
+  var features = map.queryRenderedFeatures(e.point, {
+    layers: ['only-jerkin'] // replace this with the name of the layer
+  });
+
+  if (!features.length) {
+    return;
+  }
+
+  var feature = features[0];
+
+  var popup = new mapboxgl.Popup({ offset: [0, -15] })
+    .setLngLat(feature.geometry.coordinates)
+    .setHTML('<h5>' + feature.properties.title + '</h5><p>' + feature.properties.description + '</p>')
+    .setLngLat(feature.geometry.coordinates)
+    .addTo(map);
+  });
+  
+  var nav = new mapboxgl.NavigationControl();
+  map.addControl(nav, 'top-left');
+*/
+
+
+</script>

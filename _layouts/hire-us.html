@@ -1,0 +1,96 @@
+---
+layout: default
+---
+
+<!-- Story Hero -->
+<section class="hero" style="background-image: url({{page.hero-image}})">
+  <div class="grid-x align-middle align-center" style="height: 100%;">
+    <div class="small-10  medium-8 large-6 cell text-center">
+      <h1 class="primary-font white">{{page.hero-text}}</h1>
+    </div>
+  </div>
+</section>
+<!-- End Story Hero -->
+
+<!-- Menu Intro -->
+<section class="grid-container margin-top-2">
+  <div class="grid-x grid-padding-x grid-padding-y align-center">
+    <div class="small-12 medium-10 large-10 cell text-center">
+      <h4 class="primary-font">{{page.intro-text}}</h4>
+    </div>
+  </div>
+</section>
+<!-- End Home Intro -->
+
+<!-- Menu Intro -->
+<section class="grid-container">
+  <div class="grid-x grid-padding-x grid-padding-y align-center">
+    <div class="small-12 medium-10 large-8 cell text-center">
+      {{page.content | markdownify}}
+    </div>
+  </div>
+</section>
+<!-- End Home Intro -->
+
+
+<form>
+  <div class="grid-container">
+    <div class="grid-x grid-padding-x">
+      <div class="small-12 medium-6 cell">
+        <label>First Name
+          <input type="text">
+        </label>
+      </div>
+      <div class="small-12 medium-6 cell">
+        <label>Last Name
+          <input type="text">
+        </label>
+      </div>
+      <div class="small-12 medium-6 cell">
+        <label>Email
+          <input type="text">
+        </label>
+      </div>
+      <div class="small-12 medium-6 cell">
+        <label>Phone Number
+          <input type="text">
+        </label>
+      </div>
+            <div class="small-12 medium-6 cell">
+        <label>Number of People
+          <input type="number" value="10">
+        </label>
+      </div>
+      <div class="small-12 medium-6 cell">
+        <label>Event Date
+          <input type="text">
+        </label>
+        <p class="help-text" id="passwordHelpText">If not confirmed yet, please just give us a rough idea of the location</p>
+      </div>
+      <div class="small-12 medium-6 cell">
+        <label>Type of Event
+          <select>
+            <option value="festival">Festival</option>
+            <option value="wedding">Wedding</option>
+            <option value="event">Event</option>
+          </select>
+        </label>
+      </div>
+      <div class="small-12 medium-6 cell">
+        <label>Location
+          <input type="text">
+        </label>
+      </div>
+      <div class="small-12 medium-12 cell">
+        <label>Tell Us More
+          <textarea rows="12" placeholder="Please let us know if you have any food intolerances or allergies, buget, theme, speicial dietrary needs"></textarea>
+        </label>
+      </div>
+      
+      <div class="small-12 medium-12 cell">
+      <input type="submit" class="button" value="Send it">
+      </div>
+      
+    </div>
+  </div>
+</form>

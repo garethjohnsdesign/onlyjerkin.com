@@ -1,6 +1,6 @@
 ---
 title: Legal
-position: 1
+position: 7
 layout: about
 ---
 

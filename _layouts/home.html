@@ -2,14 +2,169 @@
 layout: default
 ---
 
-<div class="grid-container">
-  
-<!-- Heading -->
-<div class="grid-x grid-padding-y">
-  <div class="small-12 medium-10 cell">
-    <h1>{{site.description}}</h1>
+<!-- Menu Hero -->
+<section class="hero" style="background-image: url({{page.hero-image}})">
+  <div class="grid-x align-middle align-center" style="height: 100%;">
+    <div class="small-10  medium-10 large-8 xxlarge-5 cell text-center">
+      <h1 class="primary-font white">{{page.hero-text}}</h1>
+    </div>
   </div>
-</div>
-<!-- End Heading -->
+</section>
+<!-- End Menu Hero -->
 
+<!-- Menu Intro -->
+<section class="grid-container">
+  <div class="grid-x grid-padding-x grid-padding-y align-center margin-top-2 margin-bottom-2">
+    <div class="small-12 medium-10 large-10 cell text-center">
+      <h4>{{page.intro-text}}</h4>
+    </div>
+  </div>
+</section>
+<!-- End Menu Intro -->
+
+<!-- Home Video -->
+<section class="hero" style="background-image: url({{page.video-image}})">
+  <div class="grid-x align-middle align-center" style="height: 100%;">
+    <div class="small-11 medium-8 large-6 cell text-center">
+      <a href="https://www.youtube.com/watch?v=HN1mulqwv5g">
+         <svg class="icon icon-play_arrow"><use xlink:href="/assets/icons/symbol-defs.svg#icon-play_arrow"></use></svg>
+         <h3 class="primary-font white">Play Video</h3>
+      </a>
+    </div>
+  </div>
+</section>
+<!-- End Home Video -->
+
+<!-- Home Details -->
+<section class="grid-container">
+  <div class="grid-x grid-padding-x grid-padding-y margin-top-2 margin-bottom-2">
+    {% assign detail-items-meta = site.pages | where: 'layout', 'story' | first %}
+    {% assign detail-items = detail-items-meta.details %}
+    {% for detail in detail-items %}
+      <div class="small-12 medium-6 cell">
+        <h3 class="primary-font">{{ detail.title }}</h3>
+        <p>{{ detail.text }}</p>
+      </div>
+    {% endfor %}
+  </div>
+</section>
+<!-- End Home Details -->
+
+<!-- Home Menu Image -->
+<section class="hero" style="background-image: url({{page.menu-image}})"></section>
+<!-- End Home Video -->
+
+<!-- Home Menu Items -->
+<section class="grid-container margin-top-2 margin-bottom-2">
+  
+  <div class="grid-x grid-padding-x grid-padding-y small-up-1 medium-up-2 text-center">
+    {% assign menu-items-meta = site.pages | where: 'layout', 'food' | first %}
+    {% assign menu-items = menu-items-meta.menu %}
+    {% for item in menu-items %}
+      <div class="cell">
+        <h3 class="primary-font">{{ item.title }}</h3>
+        <p>{{ item.description }}</p>
+        {% if item.extra %}
+        <p><small>{{ item.extra }}</small></p>
+        {% endif %}
+      </div>
+    {% endfor %}
+  </div>
+  
+  <div class="grid-x grid-padding-x grid-padding-y">
+    <div class="small-12 cell text-center">
+      <a class="button hollow">Sample Menu <svg class="icon icon-expand_more"><use xlink:href="/assets/icons/symbol-defs.svg#icon-expand_more"></use></svg></a>
+    </div>
+  </div>
+  
+</section>
+<!-- End Home Menu Items -->
+
+<!-- Home Story Image -->
+<section class="hero" style="background-image: url({{page.story-image}})"></section>
+<!-- End Story Image -->
+
+<!-- Home Story -->
+<section class="grid-container">
+  <div class="grid-x grid-padding-x grid-padding-y align-center margin-top-2 margin-bottom-2">
+    <div class="small-12 medium-10 large-8 cell text-center">
+    {% assign story-text-meta = site.pages | where: 'layout', 'story' | first %}
+    {% assign story-text = story-text-meta.intro-text %}
+    <h4 class="margin-bottom-2">{{story-text}}</h4>
+    <a href="/story" class="button hollow">Our Story</a>
+    </div>
+  </div>  
+</section>
+<!-- End Home Story -->
+
+<!-- Home Map -->
+<div id='map' style='width: 100%; height: 80vh;'></div>
+<!-- End Home Map -->
+
+<!-- Home Locations -->
+<section class="grid-container">
+<div class="grid-x grid-padding-x grid-padding-y align-center margin-top-2 margin-bottom-2">
+{% assign locations-meta = site.pages | where: 'layout', 'find-us' | first %}
+{% assign locations = locations-meta.locations %}
+{% for location in locations %}
+<div class="small-12 medium-6 cell text-center">
+<h3 class="primary-font">{{ location.title }}</h3>
+{{ location.description | markdownify }}
 </div>
+{% endfor %}
+</div>
+</section>
+<!-- End Home Locations -->
+
+<!-- Home Hire Us -->
+<section class="grid-container">
+  <div class="grid-x grid-padding-x grid-padding-y align-center">
+    <div class="small-12 medium-10 large-8 cell text-center">
+    {% assign hire-us-meta = site.pages | where: 'layout', 'hire-us' | first %}
+    {% assign hire-us-text = hire-us-meta.intro-text %}
+    <h3 class="primary-font">Hire Us</h4>
+    {{hire-us-text | markdownify}}
+    </div>
+    
+    <div class="small-12 medium-10 large-8 cell text-center">
+    <a class="button hollow">Hire Us</a>
+    </div>
+        
+  </div>  
+</section>
+<!-- End Home Hire US -->
+
+<script>
+mapboxgl.accessToken = 'pk.eyJ1IjoiZ2FyZXRoam9obnNkZXNpZ24iLCJhIjoibWRoWDZWUSJ9.n1A58EO10IDrB5yIAKqAPA';
+
+var map = new mapboxgl.Map({
+    container: 'map',
+    style: 'mapbox://styles/garethjohnsdesign/cjj4c8f7p46ua2roce0wkb7f9', //hosted style id
+    center: [-0.102483, 51.528037],
+    zoom: 11.14,
+    scrollZoom: false
+});
+
+map.on('click', function(e) {
+  var features = map.queryRenderedFeatures(e.point, {
+    layers: ['camden', 'soho', 'markets', 'digbeth'] // replace this with the name of the layer
+  });
+
+  if (!features.length) {
+    return;
+  }
+
+  var feature = features[0];
+
+  var popup = new mapboxgl.Popup({ offset: [0, -15] })
+    .setLngLat(feature.geometry.coordinates)
+//     .setHTML('<h5>' + feature.properties.title + '</h5><p>' + feature.properties.description + '</p>')
+    .setHTML('<h5 class="margin-bottom-0" style="line-height: 1.0">' + feature.properties.title + '</h5>')
+    .setLngLat(feature.geometry.coordinates)
+    .addTo(map);
+  });
+  
+  var nav = new mapboxgl.NavigationControl();
+  map.addControl(nav, 'top-left');
+  
+</script>
