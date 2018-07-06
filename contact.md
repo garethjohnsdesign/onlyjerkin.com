@@ -20,7 +20,8 @@ details:
 
     Hospitality and/or customer service experience is preferable, but not essential.
 
-    So tell us a bit about yourself and please attach a current CV.
+    So tell us a bit about yourself and please attach a current CV and send to
+    [jobs@onlyjerkin.com](mailto:jobs@onlyjerkin.com)
 - title: Let us know your thoughts
   text: Whether you loved it or felt we could do better, we want to hear it so we
     can either say thanks or make sure we put it right next time.
