@@ -29,3 +29,22 @@ $(function() {
 $(function() {
 window.addEventListener('load', AOS.refresh);
 });
+
+
+// 3. Lightgallery
+// ---------------
+
+$('#video').lightGallery({
+    counter: false,
+    youtubePlayerParams: {
+        modestbranding: 1,
+        showinfo: 0,
+        rel: 0,
+        controls: 0
+    },
+    vimeoPlayerParams: {
+        byline : 0,
+        portrait : 0,
+        color : 'FF8300'     
+    }
+}); 
