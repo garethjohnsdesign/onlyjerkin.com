@@ -1,8 +1,10 @@
 ---
 title: Find Us
 position: 3
-intro-text: |-
-  Visit our container Monday to Friday at Camden Lock, EC2: just off Camden Market. The van and our gazebo also appear regularly at various markets across London including Camden Lock Market on Saturdays and Sunday Keep an eye on social channels for the latest goings on.
+intro-text: 'Visit our container Monday to Friday at Camden Lock, EC2: just off Camden
+  Market. The van and our gazebo also appear regularly at various markets across London
+  including Camden Lock Market on Saturdays and Sunday Keep an eye on social channels
+  for the latest goings on.'
 locations:
 - title: Kerb Camden
   map: camden
