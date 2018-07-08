@@ -1,6 +1,6 @@
 ---
 title: Contact
-position: 7
+position: 5
 details:
 - title: General
   text: "[hello@onlyjerkin.com](mailto:onlyjerkin.com)  \n[+44 7709 844443](tel:07709844443)
