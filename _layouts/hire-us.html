@@ -100,3 +100,16 @@ layout: default
     </div>
   </div>
 </form>
+
+<!-- Hire Us Details -->
+<section class="grid-container">
+  <div class="grid-x grid-padding-x grid-padding-y margin-top-2 margin-bottom-2">
+    {% for detail in page.details %}
+      <div class="small-12 medium-6 cell">
+        <h3 class="primary-font">{{ detail.title }}</h3>
+        <p>{{ detail.text }}</p>
+      </div>
+    {% endfor %}
+  </div>
+</section>
+<!-- End Hire Us Details -->

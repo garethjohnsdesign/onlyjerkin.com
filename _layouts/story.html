@@ -33,7 +33,20 @@ layout: default
 </section>
 <!-- End Story Text -->
 
-<!-- Story Text -->
+<!-- Story Details -->
+<section class="grid-container">
+  <div class="grid-x grid-padding-x grid-padding-y margin-top-2 margin-bottom-2">
+    {% for detail in page.details %}
+      <div class="small-12 medium-6 cell">
+        <h3 class="primary-font">{{ detail.title }}</h3>
+        <p>{{ detail.text }}</p>
+      </div>
+    {% endfor %}
+  </div>
+</section>
+<!-- End Story Details -->
+
+<!-- Story Testimonials -->
 <section class="grid-container">
   <div class="grid-x grid-padding-x grid-padding-y align-center">
     <div class="small-12 medium-10 large-8 cell text-center">
@@ -46,4 +59,4 @@ layout: default
     </div>
   </div>
 </section>
-<!-- End Story Text -->
+<!-- End Story Testimonials -->
