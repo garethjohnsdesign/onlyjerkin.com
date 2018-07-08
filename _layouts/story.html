@@ -3,7 +3,8 @@ layout: default
 ---
 
 <!-- Story Hero -->
-<section class="hero" style="background-image: url({{page.hero-image}})">
+{% assign background-image = page.hero-image %}
+<section class="hero" {% include images/feature.html %}>
   <div class="grid-x align-middle align-center" style="height: 100%;">
     <div class="small-10  medium-8 large-6 cell text-center">
       <h1 class="primary-font white">{{page.hero-text}}</h1>
