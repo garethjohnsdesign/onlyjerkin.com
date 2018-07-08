@@ -1,6 +1,6 @@
 ---
 title: Hire Us
-position: 4
+position: 6
 hero-image: "/uploads/only-jerkin-11.jpg"
 hero-text: Hire Us
 intro-text: We are available for private hire and events UK wide. Let us know what's

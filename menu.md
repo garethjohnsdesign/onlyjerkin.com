@@ -1,6 +1,6 @@
 ---
 title: Menu
-position: 1
+position: 3
 hero-image: "/uploads/only-jerkin-03.jpg"
 hero-text: Menu
 intro-text: Our menus can and will change but at the heart will always be our golden,
