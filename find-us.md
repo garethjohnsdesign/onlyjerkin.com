@@ -9,13 +9,13 @@ locations:
 - title: Kerb Camden
   map: camden
   description: |-
-    [Camden Lock Place ](https://goo.gl/maps/jhyvs6gEorS2)\
-    Camden Town\
-    London NW1 8AF
+    [Camden Lock Place](https://goo.gl/maps/jhyvs6gEorS2)  
+    Camden Town  
+    London NW1 8AF  
 
-    Monday - Friday — 11—6\
-    Saturday — 11—7\
-    Sunday — 11—7
+    Monday - Friday — 11—6  
+    Saturday — 11—7  
+    Sunday — 11—7  
   website: https://www.kerbfood.com
 - title: Kerb Markets
   map: markets
