@@ -8,24 +8,31 @@ intro-text: 'Visit our container Monday to Friday at Camden Lock, EC2: just off 
 locations:
 - title: Kerb Camden
   map: camden
-  description: "[Camden Lock Place](https://goo.gl/maps/jhyvs6gEorS2)  \nCamden Town
-    \ \nLondon NW1 8AF  \n\nMonday - Friday — 11—6  \nSaturday — 11—7  \nSunday —
-    11—7  "
+  description: |-
+    [Camden Lock Place ](https://goo.gl/maps/jhyvs6gEorS2)\
+    Camden Town\
+    London NW1 8AF
+
+    Monday - Friday — 11—6\
+    Saturday — 11—7\
+    Sunday — 11—7
   website: https://www.kerbfood.com
 - title: Kerb Markets
   map: markets
-  description: "Granary Square — N1C 4BH  \nWest India Quay — E14 4AE  \nGherkin —
-    EC3A 8EP  \nPaddington — W2  \n\nPlease visit Kerb’s website for up to date information"
+  description: "[Granary Square](https://goo.gl/maps/hNganTHj7JU2) — N1C 4BH  \n[West
+    India Quay](https://goo.gl/maps/qYpkjWQH1j82) — E14 4AE  \n[Gherkin](https://goo.gl/maps/nkiuQUDao6U2)
+    — EC3A 8EP  \n[Paddington](https://goo.gl/maps/u5fdMeHo5zP2) — W2  \n\nPlease
+    visit Kerb’s website for up to date information"
   website: https://www.kerbfood.com
 - title: Street Food Union Soho
   map: soho
-  description: "51-53 Rupert St  \nSoho  \nLondon W1D 7PQ  \n\nWednesday-Friday —
-    11—2"
+  description: "[51-53 Rupert St](https://goo.gl/maps/qscg4c3UpR52)  \nSoho  \nLondon
+    W1D 7PQ  \n\nWednesday-Friday — 11—2"
   website: https://www.streetfoodunion.com
 - title: Digbeth Dining Club
   map: digbeth
-  description: "Lower Trinity St  \nBirmingham  \nLB9 4AG\n\nPlease visit Digbeth
-    Dining Club’s website for upto date information"
+  description: "[Lower Trinity St](https://goo.gl/maps/abcPKNS68UC2)  \nBirmingham
+    \ \nLB9 4AG\n\nPlease visit Digbeth Dining Club’s website for upto date information"
   website: http://www.digbethdiningclub.co.uk
 events-text: Here's all the exciting stuff we have planned. Make sure you keep checking
   back so you can join us on our adventure. We'll be updating this regularly or you
