@@ -24,12 +24,12 @@ layout: default
   <div class="grid-x grid-padding-x grid-padding-y">
     {% for location in page.locations %}
     <div class="small-12 medium-6 cell">
-      <!-- Home Map -->
       <div id="{{ location.map }}" style="width: 100%; height: 20rem" class="margin-bottom-1"></div>
-      <!-- End Home Map -->
+      <div class="text-center medium-text-left">
       <h3 class="primary-font">{{ location.title }}</h3>
       {{ location.description | markdownify }}
       <a href="{{ location.website }}" class="underline" target="_blank">Site</a>
+      </div>
     </div>
     {% endfor %}
   </div>
@@ -73,7 +73,7 @@ var camden = new mapboxgl.Map({
     style: 'mapbox://styles/garethjohnsdesign/cjj5rkw8r0scq2slhc07jynt9', //hosted style id
     center: [-0.146234, 51.542325],
     zoom: 13.88,
-    scrollZoom: false,
+    scrollZoom: false
 });
 
 var markets = new mapboxgl.Map({
@@ -112,33 +112,6 @@ soho.addControl(sohoNav, 'top-left');
 
 var digbethNav = new mapboxgl.NavigationControl();
 digbeth.addControl(digbethNav, 'top-left');
-  
-/*
-map.on('mouseenter', 'symbols', function () {
-        map.getCanvas().style.cursor = 'pointer';
-    });
-
-map.on('click', function(e) {
-  var features = map.queryRenderedFeatures(e.point, {
-    layers: ['only-jerkin'] // replace this with the name of the layer
-  });
-
-  if (!features.length) {
-    return;
-  }
-
-  var feature = features[0];
-
-  var popup = new mapboxgl.Popup({ offset: [0, -15] })
-    .setLngLat(feature.geometry.coordinates)
-    .setHTML('<h5>' + feature.properties.title + '</h5><p>' + feature.properties.description + '</p>')
-    .setLngLat(feature.geometry.coordinates)
-    .addTo(map);
-  });
-  
-  var nav = new mapboxgl.NavigationControl();
-  map.addControl(nav, 'top-left');
-*/
 
 
 </script>
