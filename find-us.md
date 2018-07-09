@@ -9,7 +9,7 @@ locations:
 - title: Kerb Camden
   map: camden
   description: |-
-    [Camden Lock Place ](https://goo.gl/maps/jhyvs6gEorS2)  
+    [Camden Lock Place](https://goo.gl/maps/jhyvs6gEorS2)  
     Camden Town  
     London NW1 8AF  
 

@@ -29,7 +29,7 @@ layout: default
       <!-- End Home Map -->
       <h3 class="primary-font">{{ location.title }}</h3>
       {{ location.description | markdownify }}
-      <a href="{{ location.website }}" target="_blank">Visit Site</a>
+      <a href="{{ location.website }}" class="underline" target="_blank">Site</a>
     </div>
     {% endfor %}
   </div>
@@ -54,8 +54,8 @@ layout: default
     <div class="small-12 cell text-center">
       <h3 class="primary-font">{{ event.title }}</h3>
       <div>{{ event.start-date | date: site.date_format }} - {{ event.end-date | date: site.date_format }}</div>
-      <div>{{ event.location }}</div>
-      <a href="{{ location.website }}" target="_blank">Site</a>
+      <div class="margin-bottom-1">{{ event.location }}</div>
+      <a href="{{ location.website }}" class="underline" target="_blank">Site</a>
     </div>
     {% endfor %}
   </div>

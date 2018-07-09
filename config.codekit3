@@ -531,6 +531,13 @@
 		"opt": 1,
 		"q": 100
 		},
+	"\/_uploads\/only-jerkin-menu.pdf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_uploads\/only-jerkin-menu.pdf",
+		"oF": 0
+		},
 	"\/assets\/css\/app.css": {
 		"aP": 0,
 		"bl": 0,
@@ -801,19 +808,6 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "\/assets\/css\/_carousel.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"\/assets\/scss\/_colors.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "\/assets\/css\/_colors.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -8604,8 +8598,8 @@
 		"eSQ": 1,
 		"ft": 4096,
 		"oA": 2,
-		"oAP": "\/find-us.html",
-		"oF": 0,
+		"oAP": "\/find-us.md",
+		"oF": 1,
 		"oFM": 0,
 		"oS": 0,
 		"pHT": 0,

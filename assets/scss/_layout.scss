@@ -2,17 +2,20 @@
 //
 //   1. Mixins
 //   2. Global
-//   3. Typography
-//   4. Buttons
-//   4. Navigation
-//   5. Sections
-//   6. Section One
-//   7. Section Two
-//   8. Section Three
-//   9. Section Four
-//   10. Projects
-//   11. Contact
-//   12. Footer
+//   3. Plugins
+//   4. Color
+//   5. Typography
+//   6. Navigation
+//   7. Off-canvas
+//   8. Layout
+//   9. Home
+//   10. Menu / Food
+//   11. Find Us
+//   12. Story
+//   13. Hire Us
+//   14. Contact
+//   15. Page
+//   16. Footer
 
 
 // 1. Mixins
@@ -35,16 +38,6 @@ body {
   font-kerning: normal;
 }
 
-.turbolinks-progress-bar {
-  height: 5px;
-  background-color: $primary-color;
-}
-
-
-a {
-  transition: $primary-transition;
-}
-
 svg {
   max-width: 100%;
 }
@@ -58,8 +51,16 @@ svg {
   outline: 0;
 }
 
-// 2. Color
-// ---------
+// 3. Plugins
+// ----------
+
+.turbolinks-progress-bar {
+  height: 5px;
+  background-color: $primary-color;
+}
+
+// 4. Color
+// --------
 
 .white {
   color: $white;
@@ -73,8 +74,16 @@ svg {
   color: get-color(secondary);
 }
 
-// 3. Typography
+.home__play {
+  @include links ($white, $primary-color)
+}
+
+// 5. Typography
 // -------------
+
+.underline {
+  border-bottom: 1px solid $black;
+}
 
 .uppercase {
   text-transform: uppercase;
@@ -85,7 +94,7 @@ i, cite, em, var, address, dfn {
 }
 
 p a {
-  border-bottom: 1px solid $primary-color;
+  border-bottom: 1px solid $black;
 }
 
 .primary-font {
@@ -96,7 +105,8 @@ p a {
   font-family: $secondary-font-family;
 }
 
-// 3. Navigation
+
+// 6. Navigation
 // -------------
 
 .navigation {
@@ -114,7 +124,29 @@ p a {
   }
 }
 
-// 3. Home
+// 7. Off-canvas
+// -------------
+
+.off-canvas {
+  @include links ($black, $white)
+}
+
+// 8. Layout
+// ---------
+
+.hero {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 80vh;
+/*
+  h1 {
+    text-shadow: 1px 1px 1px $black;
+  }
+*/
+}
+
+// 9. Home
 // -------
 
 .home .navigation {
@@ -124,16 +156,9 @@ p a {
   width: 100%;
 }
 
-.hero {
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center center;
-  height: 80vh;
-}
 
-
-// 3. Food
-// -------
+// 10. Menu
+// --------
 
 .food .navigation {
   position: absolute;
@@ -151,18 +176,8 @@ p a {
   }
 }
 
-// 3. Story
-// -------
-
-.story .navigation {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-}
-
-// 3. Find Us
-// -------
+// 11. Find Us
+// -----------
 
 .find-us .navigation {
   @include links ($black, $black)
@@ -176,7 +191,17 @@ p a {
   }
 }
 
-// 3. Hire Us
+// 12. Story
+// --------
+
+.story .navigation {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+// 13. Hire Us
 // -------
 
 .hire-us .navigation {
@@ -186,8 +211,21 @@ p a {
   width: 100%;
 }
 
-// 3. Page
-// -------
+// 14. Contact
+// -----------
+
+.contact {
+  background-color: $black;
+  color: $white;
+  @include links ($white, $primary-color)
+}
+
+.contact p a {
+  border-bottom: 1px solid $white;
+}
+
+// 15. Page
+// --------
 
 .page .navigation {
   @include links ($black, $primary-color)
@@ -201,22 +239,8 @@ p a {
   }
 }
 
-// 9. Off-canvas
-// ---------
-
-.off-canvas {
-  @include links ($black, $white)
-}
-
-// 9. Contact
-// ---------
-
-.contact {
-  background-color: $black;
-  color: $white;
-  @include links ($white, $primary-color)
-}
-
+// 16. Footer
+// ----------
 
 footer {
   background-color: $primary-color;
