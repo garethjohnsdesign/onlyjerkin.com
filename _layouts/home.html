@@ -8,7 +8,7 @@ layout: default
 <section class="hero" {% include images/feature.html %}>
   <div class="grid-x align-middle align-center" style="height: 100%;">
     <div class="small-10  medium-10 large-8 xxlarge-6 cell text-center">
-      <h1 class="primary-font white">{{page.hero-text}}</h1>
+      <h1 class="primary-font white" data-aos="fade-in">{{page.hero-text}}</h1>
     </div>
   </div>
 </section>
@@ -17,7 +17,7 @@ layout: default
 <!-- Menu Intro -->
 <section class="grid-container">
   <div class="grid-x grid-padding-x grid-padding-y align-center margin-top-2 margin-bottom-2">
-    <div class="small-12 medium-10 large-10 cell text-center">
+    <div class="small-12 medium-10 large-10 cell text-center" data-aos="fade-in">
       <h4>{{page.intro-text}}</h4>
     </div>
   </div>
@@ -44,7 +44,7 @@ layout: default
     {% assign detail-items-meta = site.pages | where: 'layout', 'story' | first %}
     {% assign detail-items = detail-items-meta.details %}
     {% for detail in detail-items %}
-      <div class="small-12 medium-6 cell">
+      <div class="small-12 medium-6 cell" data-aos="fade-in">
         <h3 class="primary-font">{{ detail.title }}</h3>
         <p>{{ detail.text }}</p>
       </div>
@@ -65,7 +65,7 @@ layout: default
     {% assign menu-items-meta = site.pages | where: 'layout', 'food' | first %}
     {% assign menu-items = menu-items-meta.menu %}
     {% for item in menu-items %}
-      <div class="cell">
+      <div class="cell" data-aos="fade-in">
         <h3 class="primary-font">{{ item.title }}</h3>
         <p>{{ item.description }}</p>
         {% if item.extra %}
@@ -92,7 +92,7 @@ layout: default
 <!-- Home Story -->
 <section class="grid-container">
   <div class="grid-x grid-padding-x grid-padding-y align-center margin-top-2 margin-bottom-2">
-    <div class="small-12 medium-10 large-8 cell text-center">
+    <div class="small-12 medium-10 large-8 cell text-center" data-aos="fade-in">
     {% assign story-text-meta = site.pages | where: 'layout', 'story' | first %}
     {% assign story-text = story-text-meta.intro-text %}
     <h4 class="margin-bottom-2">{{story-text}}</h4>
@@ -112,7 +112,7 @@ layout: default
 {% assign locations-meta = site.pages | where: 'layout', 'find-us' | first %}
 {% assign locations = locations-meta.locations %}
 {% for location in locations %}
-<div class="small-12 medium-6 cell text-center">
+<div class="small-12 medium-6 cell text-center" data-aos="fade-in">
 <h3 class="primary-font">{{ location.title }}</h3>
 {{ location.description | markdownify }}
 </div>
@@ -124,15 +124,15 @@ layout: default
 <!-- Home Hire Us -->
 <section class="grid-container">
   <div class="grid-x grid-padding-x grid-padding-y align-center">
-    <div class="small-12 medium-10 large-8 cell text-center">
+    <div class="small-12 medium-10 large-8 cell text-center" data-aos="fade-in">
     {% assign hire-us-meta = site.pages | where: 'layout', 'hire-us' | first %}
     {% assign hire-us-text = hire-us-meta.intro-text %}
     <h3 class="primary-font">Hire Us</h4>
     {{hire-us-text | markdownify}}
     </div>
     
-    <div class="small-12 medium-10 large-8 cell text-center">
-    <a class="button hollow">Hire Us</a>
+    <div class="small-12 medium-10 large-8 cell text-center" data-aos="fade-in">
+    <a href="/hire-us" class="button hollow">Hire Us</a>
     </div>
         
   </div>  

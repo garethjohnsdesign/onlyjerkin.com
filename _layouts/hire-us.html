@@ -7,7 +7,7 @@ layout: default
 <section class="hero" {% include images/feature.html %}>
   <div class="grid-x align-middle align-center" style="height: 100%;">
     <div class="small-10  medium-8 large-6 cell text-center">
-      <h1 class="primary-font white">{{page.hero-text}}</h1>
+      <h1 class="primary-font white" data-aos="fade-in">{{page.hero-text}}</h1>
     </div>
   </div>
 </section>
@@ -15,7 +15,7 @@ layout: default
 
 <!-- Hire Us Intro -->
 <section class="grid-container margin-top-2">
-  <div class="grid-x grid-padding-x grid-padding-y align-center">
+  <div class="grid-x grid-padding-x grid-padding-y align-center" data-aos="fade-in">
     <div class="small-12 medium-10 large-10 cell text-center">
       <h3 class="primary-font">{{page.intro-text}}</h3>
     </div>
@@ -25,7 +25,7 @@ layout: default
 
 <!-- Hire Us Contact -->
 <section class="grid-container">
-  <div class="grid-x grid-padding-x align-center">
+  <div class="grid-x grid-padding-x align-center" data-aos="fade-in">
     <div class="small-12 medium-10 large-8 cell text-center">
        <h3 class="primary-font"><a href="mailto:hello@onlyjerkin.com">Email Us</a></h3>
        <h3 class="primary-font"><a href="tel:07709844443">+44 (0)7709 844443</a></h3>
@@ -35,7 +35,7 @@ layout: default
 <!-- End Hire Us Contact -->
 
 <!-- Hire Us Intro -->
-<section class="grid-container">
+<section class="grid-container" data-aos="fade-in">
   <div class="grid-x grid-padding-x grid-padding-y align-center">
     <div class="small-12 medium-10 large-8 cell text-center">
       {{page.content | markdownify}}
@@ -51,7 +51,7 @@ layout: default
   <label>Don’t fill this out if you're human: <input name="bot-field" /></label>
   </div>
   
-  <div class="grid-container">
+  <div class="grid-container" data-aos="fade-in">
     <div class="grid-x grid-padding-x">
       <div class="small-12 medium-6 cell">
         <label>First Name
@@ -116,7 +116,7 @@ layout: default
 <section class="grid-container">
   <div class="grid-x grid-padding-x grid-padding-y margin-top-2 margin-bottom-2  text-center medium-text-left">
     {% for detail in page.details %}
-      <div class="small-12 medium-6 cell">
+      <div class="small-12 medium-6 cell" data-aos="fade-in">
         <h3 class="primary-font">{{ detail.title }}</h3>
         <p>{{ detail.text }}</p>
       </div>

@@ -531,13 +531,6 @@
 		"opt": 1,
 		"q": 100
 		},
-	"\/_uploads\/only-jerkin-menu.pdf": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/_uploads\/only-jerkin-menu.pdf",
-		"oF": 0
-		},
 	"\/assets\/css\/app.css": {
 		"aP": 0,
 		"bl": 0,
@@ -680,6 +673,20 @@
 		"oAP": "\/assets\/fonts\/lacrimamg-serif.woff2",
 		"oF": 0
 		},
+	"\/assets\/fonts\/marrsans-regular.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/marrsans-regular.woff",
+		"oF": 0
+		},
+	"\/assets\/fonts\/marrsans-regular.woff2": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/assets\/fonts\/marrsans-regular.woff2",
+		"oF": 0
+		},
 	"\/assets\/fonts\/true-north.woff": {
 		"cB": 0,
 		"ft": 8192,
@@ -694,25 +701,21 @@
 		"oAP": "\/assets\/fonts\/true-north.woff2",
 		"oF": 0
 		},
-	"\/assets\/fonts\/untitled-sans-regular.woff": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/assets\/fonts\/untitled-sans-regular.woff",
-		"oF": 0
-		},
-	"\/assets\/fonts\/untitled-sans-regular.woff2": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/assets\/fonts\/untitled-sans-regular.woff2",
-		"oF": 0
-		},
 	"\/assets\/icons\/logo.svg": {
 		"ft": 2097152,
 		"miP": 0,
 		"oA": 2,
 		"oAP": "\/assets\/icons\/logo.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/assets\/icons\/symbol-defs.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/assets\/icons\/symbol-defs.svg",
 		"oF": 0,
 		"opt": 0,
 		"plM": 3758088159,
