@@ -76,32 +76,11 @@
 		"oAP": "\/_includes\/head.html",
 		"oF": 0
 		},
-	"\/_includes\/image.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/_includes\/image.html",
-		"oF": 0
-		},
-	"\/_includes\/images\/excerpt.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/_includes\/images\/excerpt.html",
-		"oF": 0
-		},
 	"\/_includes\/images\/feature.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_includes\/images\/feature.html",
-		"oF": 0
-		},
-	"\/_includes\/item.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/_includes\/item.html",
 		"oF": 0
 		},
 	"\/_includes\/navigation.html": {
@@ -188,32 +167,11 @@
 		"oAP": "\/_layouts\/hire-us.html",
 		"oF": 0
 		},
-	"\/_layouts\/holding.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/_layouts\/holding.html",
-		"oF": 0
-		},
 	"\/_layouts\/home.html": {
 		"cB": 0,
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_layouts\/home.html",
-		"oF": 0
-		},
-	"\/_layouts\/missing.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 0,
-		"oAP": "\/_layouts\/missing.html",
-		"oF": 0
-		},
-	"\/_layouts\/notes.html": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/_layouts\/notes.html",
 		"oF": 0
 		},
 	"\/_layouts\/page.html": {
@@ -228,48 +186,6 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/_layouts\/story.html",
-		"oF": 0
-		},
-	"\/_notes\/award-season copy.markdown": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/_notes\/award-season copy.markdown",
-		"oF": 0
-		},
-	"\/_notes\/award-season.markdown": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/_notes\/award-season.markdown",
-		"oF": 0
-		},
-	"\/_notes\/born-and-reared copy.markdown": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/_notes\/born-and-reared copy.markdown",
-		"oF": 0
-		},
-	"\/_notes\/born-and-reared.markdown": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/_notes\/born-and-reared.markdown",
-		"oF": 0
-		},
-	"\/_notes\/film-workshop copy.markdown": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/_notes\/film-workshop copy.markdown",
-		"oF": 0
-		},
-	"\/_notes\/film-workshop.markdown": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/_notes\/film-workshop.markdown",
 		"oF": 0
 		},
 	"\/_site": {
@@ -530,6 +446,13 @@
 		"oIPL": 0,
 		"opt": 1,
 		"q": 100
+		},
+	"\/_uploads\/only-jerkin-menu.pdf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 2,
+		"oAP": "\/_uploads\/only-jerkin-menu.pdf",
+		"oF": 0
 		},
 	"\/assets\/css\/app.css": {
 		"aP": 0,
@@ -8685,24 +8608,6 @@
 		"ft": 4096,
 		"oA": 2,
 		"oAP": "\/menu.md",
-		"oF": 0,
-		"oFM": 0,
-		"oS": 0,
-		"pHT": 0,
-		"pME": 1,
-		"rFN": 0,
-		"uCM": 0
-		},
-	"\/notes.md": {
-		"cB": 0,
-		"cS": 0,
-		"eF": 1,
-		"eL": 1,
-		"ema": 1,
-		"eSQ": 1,
-		"ft": 4096,
-		"oA": 2,
-		"oAP": "\/notes.md",
 		"oF": 0,
 		"oFM": 0,
 		"oS": 0,
