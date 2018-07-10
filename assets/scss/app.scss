@@ -18,25 +18,25 @@
 @import 'fonts';
 
 
-// 3. Typography
+// 2. Typography
 // -------------
 
 @import 'typography';
 
 
-// 4. Scroll
+// 3. Scroll
 // ---------
 
 @import 'scroll/aos';
 
 
-// 5. Transitions
+// 4. Transitions
 // --------------
 
 @import 'transitions';
 
 
-// 7. Foundation
+// 5. Foundation
 // -------------
 
 @import 'settings';
@@ -64,11 +64,11 @@
 // @include foundation-drilldown-menu;
 // @include foundation-dropdown;
 // @include foundation-dropdown-menu;
-@include foundation-responsive-embed;
+// @include foundation-responsive-embed;
 // @include foundation-label;
 // @include foundation-media-object;
 @include foundation-off-canvas;
-@include foundation-orbit;
+// @include foundation-orbit;
 // @include foundation-pagination;
 // @include foundation-progress-bar;
 // @include foundation-progress-element;
@@ -76,7 +76,7 @@
 // @include foundation-meter-element;
 // @include foundation-slider;
 // @include foundation-sticky;
-@include foundation-reveal;
+// @include foundation-reveal;
 // @include foundation-switch;
 // @include foundation-table;
 // @include foundation-tabs;
@@ -99,9 +99,14 @@
 @import 'hamburgers/hamburgers';
 
 
-// 8. Layout
+// 7. Layout
 // ---------
 
 @import 'icons';
 @import 'lightgallery';
 @import 'layout';
+
+// 8. Maps
+// ---------
+
+@import 'mapbox';
