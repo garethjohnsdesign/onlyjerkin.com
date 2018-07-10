@@ -55,6 +55,13 @@
 		"oAP": "\/_data\/navigation.yml",
 		"oF": 0
 		},
+	"\/_headers": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 1,
+		"oAP": "\/_headers",
+		"oF": 0
+		},
 	"\/_includes\/analytics.html": {
 		"cB": 0,
 		"ft": 8192,
