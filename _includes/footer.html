@@ -14,7 +14,7 @@
   <div class="shrink cell">
     <ul class="menu align-right">
       {% for item in site.social %}  
-      <li><a href="{{ item[1] }}" target="_blank" rel="noopener"><svg class="icon icon-socials icon-{{ item[0] }}"><use xlink:href="/assets/icons/symbol-defs.svg#icon-{{ item[0] }}"></use></svg></a></li>
+      <li><a href="{{ item[1] }}" target="_blank" rel="noopener"><span class="show-for-sr">{{ item[0] }}</span><svg class="icon icon-socials icon-{{ item[0] }}"><use xlink:href="/assets/icons/symbol-defs.svg#icon-{{ item[0] }}"></use></svg></a></li>
       {% endfor %} 
     </ul>
   </div>
