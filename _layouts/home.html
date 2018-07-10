@@ -124,17 +124,16 @@ layout: default
 <!-- Home Hire Us -->
 <section class="grid-container">
   <div class="grid-x grid-padding-x grid-padding-y align-center">
+    
     <div class="small-12 medium-10 large-8 cell text-center" data-aos="fade-in">
     {% assign hire-us-meta = site.pages | where: 'layout', 'hire-us' | first %}
     {% assign hire-us-text = hire-us-meta.intro-text %}
     <h3 class="primary-font">Hire Us</h4>
     {{hire-us-text | markdownify}}
-    </div>
-    
-    <div class="small-12 medium-10 large-8 cell text-center" data-aos="fade-in">
     <a href="/hire-us" class="button hollow">Hire Us</a>
     </div>
-        
+    
+
   </div>  
 </section>
 <!-- End Home Hire US -->
