@@ -27,7 +27,8 @@ locations:
 - title: Digbeth Dining Club
   map: digbeth
   description: "[Lower Trinity St](https://goo.gl/maps/abcPKNS68UC2)  \nBirmingham
-    \ \nLB9 4AG\n\nPlease visit Digbeth Dining Club’s [website](http://www.digbethdiningclub.co.uk) for up-to-date information"
+    \ \nLB9 4AG\n\nPlease visit Digbeth Dining Club’s [website](http://www.digbethdiningclub.co.uk)
+    for up-to-date information"
   website: http://www.digbethdiningclub.co.uk
 events-text: Here's all the exciting stuff we have planned. Make sure you keep checking
   back so you can join us on our adventure. We'll be updating this regularly or you
