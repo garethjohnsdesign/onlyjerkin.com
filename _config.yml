@@ -55,3 +55,4 @@ compress_html:
   profile: false
 imgix:
   source: only-jerkin.imgix.net
+menu-file: "/uploads/only-jerkin-menu.pdf"

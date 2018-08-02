@@ -3,7 +3,7 @@ title: Contact
 position: 5
 details:
 - title: General
-  text: "[hello@onlyjerkin.com](mailto:onlyjerkin.com)  \n[+44 7709 844443](tel:07709844443)
+  text: "Luke Dawes  [hello@onlyjerkin.com](mailto:onlyjerkin.com)  \n[+44 079-0306-0321](tel:07903060321)
     \ "
 - title: Follow Us
   text: "[Instagram](https://www.instagram.com)  \n[Twitter](https://twitter.com)
@@ -20,7 +20,8 @@ details:
 
     Hospitality and/or customer service experience is preferable, but not essential.
 
-    So tell us a bit about yourself and please attach a current CV.
+    So tell us a bit about yourself and please attach a current CV and send to
+    [jobs@onlyjerkin.com](mailto:jobs@onlyjerkin.com)
 - title: Let us know your thoughts
   text: Whether you loved it or felt we could do better, we want to hear it so we
     can either say thanks or make sure we put it right next time.

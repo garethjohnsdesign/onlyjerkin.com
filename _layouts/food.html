@@ -3,17 +3,18 @@ layout: default
 ---
 
 <!-- Menu Hero -->
-<section class="hero" style="background-image: url({{page.hero-image}})">
+{% assign background-image = page.hero-image %}
+<section class="hero" {% include images/feature.html %}>
   <div class="grid-x align-middle align-center" style="height: 100%;">
     <div class="small-10  medium-8 large-6 cell text-center">
-      <h1 class="primary-font white">{{page.hero-text}}</h1>
+      <h1 class="primary-font white" data-aos="fade-in">{{page.hero-text}}</h1>
     </div>
   </div>
 </section>
 <!-- End Menu Hero -->
 
 <!-- Menu Intro -->
-<section class="grid-container margin-top-2 margin-bottom-2">
+<section class="grid-container margin-top-2 margin-bottom-2" data-aos="fade-in">
   <div class="grid-x grid-padding-x grid-padding-y align-center">
     <div class="small-12 medium-10 large-10 cell text-center">
       <h4>{{page.intro-text}}</h4>
@@ -27,7 +28,7 @@ layout: default
   
   <div class="grid-x grid-padding-x grid-padding-y text-center">
     {% for item in page.menu %}
-    <div class="small-12 cell">
+    <div class="small-12 cell" data-aos="fade-in">
       <h3 class="primary-font">{{ item.title }}</h3>
       <p>{{ item.description }}</p>
       {% if item.extra %}
@@ -37,16 +38,16 @@ layout: default
     {% endfor %}
   </div>
   
-  <div class="grid-x grid-padding-x grid-padding-y">
+  <div class="grid-x grid-padding-x grid-padding-y" data-aos="fade-in">
     <div class="small-12 cell text-center">
-      <a class="button hollow">Sample Menu <svg class="icon icon-expand_more"><use xlink:href="/assets/icons/symbol-defs.svg#icon-expand_more"></use></svg></a>
+      <a href="{{site.menu-file}}" class="button hollow">Sample Menu <svg class="icon icon-expand_more"><use xlink:href="/assets/icons/symbol-defs.svg#icon-expand_more"></use></svg></a>
     </div>
   </div>
   
 </section>
 
 <!-- Menu Intro -->
-<section class="grid-container">
+<section class="grid-container" data-aos="fade-in">
   <div class="grid-x grid-padding-x grid-padding-y align-center">
     <div class="small-12 medium-10 large-10 cell text-center">
       {{page.extra-text | markdownify}}

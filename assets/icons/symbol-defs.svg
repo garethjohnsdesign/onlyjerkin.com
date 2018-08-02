@@ -45,21 +45,13 @@
 <title>expand_more</title>
 <path d="M16.594 8.578l1.406 1.406-6 6-6-6 1.406-1.406 4.594 4.594z"></path>
 </symbol>
-<symbol id="icon-get_app" viewBox="0 0 24 24">
-<title>get_app</title>
-<path d="M5.016 18h13.969v2.016h-13.969v-2.016zM18.984 9l-6.984 6.984-6.984-6.984h3.984v-6h6v6h3.984z"></path>
-</symbol>
-<symbol id="icon-keyboard_arrow_down" viewBox="0 0 24 24">
-<title>keyboard_arrow_down</title>
-<path d="M7.406 7.828l4.594 4.594 4.594-4.594 1.406 1.406-6 6-6-6z"></path>
-</symbol>
 <symbol id="icon-play_arrow" viewBox="0 0 24 24">
 <title>play_arrow</title>
 <path d="M8.016 5.016l10.969 6.984-10.969 6.984v-13.969z"></path>
 </symbol>
-<symbol id="icon-vertical_align_bottom" viewBox="0 0 24 24">
-<title>vertical_align_bottom</title>
-<path d="M3.984 18.984h16.031v2.016h-16.031v-2.016zM15.984 12.984l-3.984 4.031-3.984-4.031h3v-9.984h1.969v9.984h3z"></path>
+<symbol id="icon-send" viewBox="0 0 24 24">
+<title>send</title>
+<path d="M2.016 21v-6.984l15-2.016-15-2.016v-6.984l21 9z"></path>
 </symbol>
 </defs>
 </svg>

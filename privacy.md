@@ -1,5 +1,6 @@
 ---
 title: Privacy
+position: 6
 layout: page
 ---
 

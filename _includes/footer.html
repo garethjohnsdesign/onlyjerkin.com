@@ -3,17 +3,18 @@
   
   <div class="auto cell">
     <ul class="menu">
-      <li><a href="mailto:{{site.email}}"><h5 class="primary-font">{{site.email}}</h5></a></li>
-      <li><a href="/terms/"><h5 class="primary-font">T&C's</h5></a></li>
-      <li><a href="/privacy/"><h5 class="primary-font">Privacy</h5></a></li>
-      <li><a href="https://www.garethjohnsdesign.com"><h5 class="primary-font">Colophon</h5></a></li>
+      <li class="show-for-medium"><a href="mailto:{{site.email}}"><h5 class="primary-font">{{site.email}}</h5></a></li>
+      <li class="show-for-small-only"><a href="mailto:{{site.email}}"><svg class="icon icon-send"><use xlink:href="/assets/icons/symbol-defs.svg#icon-send"></use></svg></a></li>
+      <li class="show-for-medium"><a href="/terms/"><h5 class="primary-font">T&C's</h5></a></li>
+      <li class="show-for-medium"><a href="/privacy/"><h5 class="primary-font">Privacy</h5></a></li>
+      <li class="show-for-medium"><a href="https://www.garethjohnsdesign.com"><h5 class="primary-font">Colophon</h5></a></li>
     </ul>
   </div>
   
   <div class="shrink cell">
     <ul class="menu align-right">
       {% for item in site.social %}  
-      <li><a href="{{ item[1] }}" target="_blank"><svg class="icon icon-socials icon-{{ item[0] }}"><use xlink:href="/assets/icons/symbol-defs.svg#icon-{{ item[0] }}"></use></svg></a></li>
+      <li><a href="{{ item[1] }}" target="_blank" rel="noopener"><span class="show-for-sr">{{ item[0] }}</span><svg class="icon icon-socials icon-{{ item[0] }}"><use xlink:href="/assets/icons/symbol-defs.svg#icon-{{ item[0] }}"></use></svg></a></li>
       {% endfor %} 
     </ul>
   </div>

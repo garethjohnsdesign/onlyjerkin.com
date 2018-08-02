@@ -8,7 +8,7 @@ intro-text: Our menus can and will change but at the heart will always be our go
 menu:
 - title: Fried Chicken Nuggets
   description: Fried Jerk Chicken Nuggets Triple Dipped in a Ginger Beer Batter
-  extra: served with jerk fries and creamy coleslaw
+  extra: served with jerk fries and creamy coleslaw, homemade dips or jerk gravy
 - title: Fried Chicken Strips
   description: Mango, Coconut and Honey Fried Chicken Strips Triple Dipped in a Cream
     Soda Batter
@@ -18,7 +18,7 @@ menu:
   extra: served with jerk fries, creamy coleslaw, homemade dips or jerk gravy
 - title: Jerkin’ Burger
   description: Fried Jerk Chicken Triple Dipped in a Ginger Beer Batter, Sandwiched
-    in Coco Bread
+    in coco bread
   extra: accompanied with cheese, chilli mango aioli, gherkins and lettuce
 - title: Chips and Dips
   description: Jerk fries topped with choice of homemade dips or jerk gravy
