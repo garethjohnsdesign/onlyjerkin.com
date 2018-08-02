@@ -3,7 +3,7 @@ title: Contact
 position: 5
 details:
 - title: General
-  text: "[hello@onlyjerkin.com](mailto:onlyjerkin.com)  \n[+44 7709 844443](tel:07709844443)
+  text: "Luke Dawes  [hello@onlyjerkin.com](mailto:onlyjerkin.com)  \n[+44 079-0306-0321](tel:07903060321)
     \ "
 - title: Follow Us
   text: "[Instagram](https://www.instagram.com)  \n[Twitter](https://twitter.com)
