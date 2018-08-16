@@ -7,9 +7,7 @@ intro-text: Only Jerkin' set out in January 2016 to celebrate and promote all th
   is great about Caribbean flavours.
 details:
 - title: Our Food
-  text: Inspired by a family recipe, we experiment with punchy flavours of the Caribbean!
-    Each piece of chicken marinaded and triple dipped in a ginger beer or cream soda
-    batter!
+  text: Our food is built on traditional family recipes, and takes inspiration from childhood experiences in the kitchen. Food always played an important role in family life and it’s about taking those early influences and injecting them in to our street food. All of our chicken is marinaded for 48 hours to ensure it’s super tender and tasty. Our chicken is then triple dipped in seasoned flour and our signature batters; ginger beer or cream soda. Once fried expect some serious flavour and crunch! If that wasn’t enough we have a selection of homemade sauces including our famous jerk gravy… plus jerk seasoned skin on fries and creamy slaw!
 - title: Our Sound
   text: Only jerkin' Sound System landed in spring 2018! Taking over venues from London
     to Birmingham, our events are about showcasing all that we love about Caribbean

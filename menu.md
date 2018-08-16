@@ -21,7 +21,7 @@ menu:
     in coco bread
   extra: accompanied with cheese, chilli mango aioli, gherkins and lettuce
 - title: Fried Jerk Cauliflower
-  description: 
+  description: Fried Jerk Cauliflower Triple Dipped in a Ginger Beer Batter
   extra: served with jerk fries, creamy coleslaw, homemade dips
 - title: Chips and Dips
   description: Jerk fries topped with choice of homemade dips or jerk gravy
