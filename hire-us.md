@@ -19,15 +19,9 @@ details:
     free to download our festival pack available below. We have traded at Field Day,
     Latitude, Love Saves The Day, British Summer Time and many more.
 - title: Events
-  text: Street food will always be our heart and soul. So if you’re keen for Polú
-    Poké to appear at your event, just send us a note with a little more detail. Tailor
-    made to your event specifics we can assure you that your event will run smoothly
-    with Dough & Deer catering for you. We can customise Menus to make sure that everyone
-    leaves feeling full.  With over 7 years experience in catering, we have honed
-    our skills to ensure that your event is a success. From weddings to parties and
-    corporate events we can supply you with a unique menu to suit your needs.  We
-    are equipped to cater from any location and with our own outdoor set up we specialise
-    in al fresco dining.
+  text: |-
+    From kid's birthday parties to big brand corporate events, Only Jerkin' thrive off catering private events. We can be flexible to your needs, whether that be customised menus or tailor made set up. Drop us an email with your requirements and we would be happy to figure out a solution to ensure your event runs smoothly and bellies are full and satisfied.\
+    Previous clients include Adidas, Dixons, Excel and many more.
 - title: Sound System
   text: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
     incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
