@@ -29,11 +29,7 @@ menu:
 - title: Fried Jerk Cauliflower
   description: 
   extra: served with jerk fries, creamy coleslaw, homemade dips
-extra-text: |-
-  We're always trying new things so keep an eye out. We may also vary the menu depending on the seasons.
-  Got a hankering for something? Want to see it on our menu? Get in touch, we can't promise anything but we'll do our best.
-  NB Not all the burgers selection and other yummies on the menu are always sold during our markets or events, so if you fancy something in particular, please check with us.
-  We do drinks at private events
+extra-text: Feel free to contact us regarding any dietary or allergen info.
 layout: food
 ---
 
