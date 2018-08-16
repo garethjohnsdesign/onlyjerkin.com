@@ -9,7 +9,9 @@ collections:
     title: Uploads
     output: false
 url: https://www.onlyjerkin.com
-description: Jamaican soul food with a twist
+description: Celebrating the spirit of the Caribbean through lip smacking flavours,
+  music and all round experience. Look out for the jerk bus as we serve the streets
+  of London daily.
 permalink: pretty
 exclude:
 - bower.json
