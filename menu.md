@@ -26,6 +26,9 @@ menu:
   description: Jerk fries topped with choice of homemade dips or jerk gravy
 - title: Dips
   description: Jerk Gravy Jerk, Ketchup Chilli, Mango Aioli, Lime and Coriander Mayo
+- title: Fried Jerk Cauliflower
+  description: 
+  extra: served with jerk fries, creamy coleslaw, homemade dips
 extra-text: |-
   We're always trying new things so keep an eye out. We may also vary the menu depending on the seasons.
   Got a hankering for something? Want to see it on our menu? Get in touch, we can't promise anything but we'll do our best.
