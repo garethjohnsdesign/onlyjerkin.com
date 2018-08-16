@@ -16,7 +16,7 @@ details:
     flavour and crunch! If that wasn’t enough we have a selection of homemade sauces
     including our famous jerk gravy… plus jerk seasoned skin on fries and creamy slaw!
 - title: Our Sound
-  text: Only jerkin' Sound System landed in spring 2018! Taking over venues from London
+  text: Only Jerkin' Sound System landed in spring 2018! Taking over venues from London
     to Birmingham, our events are about showcasing all that we love about Caribbean
     culture! Expect big flavours, big sounds and big smiles.
 testimonials:
