@@ -1,10 +1,10 @@
 ---
 title: Find Us
 position: 2
-intro-text: 'Visit our container Monday to Friday at Camden Lock, EC2: just off Camden
-  Market. The van and our gazebo also appear regularly at various markets across London
-  including Camden Lock Market on Saturdays and Sunday Keep an eye on social channels
-  for the latest goings on.'
+intro-text: |-
+  Visit Only Jerkin's kiosk Monday to Sunday in Camden Market, NW1.
+
+  Our food truck and gazebo also appear regularly across London including Soho, Kings cross and West India Quay. Keep an eye out on our social channels for the latest goings on.
 locations:
 - title: Kerb Camden
   map: camden
@@ -16,8 +16,9 @@ locations:
   map: markets
   description: "[Granary Square](https://goo.gl/maps/hNganTHj7JU2) — N1C 4BH  \n[West
     India Quay](https://goo.gl/maps/qYpkjWQH1j82) — E14 4AE  \n[Gherkin](https://goo.gl/maps/nkiuQUDao6U2)
-    — EC3A 8EP  \n[Paddington](https://goo.gl/maps/u5fdMeHo5zP2) — W2  \n\nPlease
-    visit Kerb’s [website](https://www.kerbfood.com) for up-to-date information"
+    — EC3A 8EP  \n[Paddington](https://goo.gl/maps/u5fdMeHo5zP2) — W2  \n[St. Katharine
+    Docks](https://goo.gl/maps/8XmqK4c31EA2) — E1W 1LA  \n\nPlease visit Kerb’s [website](https://www.kerbfood.com)
+    for up-to-date information"
   website: https://www.kerbfood.com
 - title: Street Food Union Soho
   map: soho
