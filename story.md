@@ -7,7 +7,9 @@ intro-text: Only Jerkin' set out in January 2016 to celebrate and promote all th
   is great about Caribbean flavours.
 details:
 - title: Our Food
-  text: Inspired by a family recipe, we experiment with punchy flavours of the Caribbean! Each piece of chicken marinaded and triple dipped in a ginger beer or cream soda batter!
+  text: Inspired by a family recipe, we experiment with punchy flavours of the Caribbean!
+    Each piece of chicken marinaded and triple dipped in a ginger beer or cream soda
+    batter!
 - title: Our Sound
   text: Only jerkin' Sound System landed in spring 2018! Taking over venues from London
     to Birmingham, our events are about showcasing all that we love about Caribbean
