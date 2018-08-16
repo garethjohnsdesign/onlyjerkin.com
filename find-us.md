@@ -3,6 +3,7 @@ title: Find Us
 position: 2
 intro-text: |-
   Visit Only Jerkin's kiosk Monday to Sunday in Camden Market, NW1.
+
   Our food truck and gazebo also appear regularly across London including Soho, Kings cross and West India Quay. Keep an eye out on our social channels for the latest goings on.
 locations:
 - title: Kerb Camden
@@ -13,10 +14,14 @@ locations:
   website: https://www.kerbfood.com
 - title: Kerb Markets
   map: markets
-  description: "[Granary Square](https://goo.gl/maps/hNganTHj7JU2) — N1C 4BH  \n[West
-    India Quay](https://goo.gl/maps/qYpkjWQH1j82) — E14 4AE  \n[Gherkin](https://goo.gl/maps/nkiuQUDao6U2)
-    — EC3A 8EP  \n[Paddington](https://goo.gl/maps/u5fdMeHo5zP2) — W2  \n\nPlease
-    visit Kerb’s [website](https://www.kerbfood.com) for up-to-date information"
+  description: |-
+    [Granary Square](https://goo.gl/maps/hNganTHj7JU2) — N1C 4BH\
+    [West India Quay](https://goo.gl/maps/qYpkjWQH1j82) — E14 4AE\
+    [Gherkin](https://goo.gl/maps/nkiuQUDao6U2) — EC3A 8EP\
+    [Paddington](https://goo.gl/maps/u5fdMeHo5zP2) — W2\
+    [St. Katharine Docks](https://goo.gl/maps/8XmqK4c31EA2) — E1W 1LA
+
+    Please visit Kerb’s [website](https://www.kerbfood.com) for up-to-date information
   website: https://www.kerbfood.com
 - title: Street Food Union Soho
   map: soho
