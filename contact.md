@@ -14,14 +14,9 @@ details:
     all ears! We’re always looking to add to our network so to arrange a chat, send
     an email to [hello@onlyjerkin.com](mailto:hello@onlyjerkin.com).
 - title: Jobs
-  text: |-
-    We're always on the lookout for talent to join our team.
-    We currently have various positions available at our Hackney and Camden locations.
-
-    Hospitality and/or customer service experience is preferable, but not essential.
-
-    So tell us a bit about yourself and please attach a current CV and send to
-    [jobs@onlyjerkin.com](mailto:jobs@onlyjerkin.com)
+  text: |
+    We are always on the lookout for talent to join our team. Hospitality and/or customer service experience is preferable, but not essential.\
+    If you are interested, send an email to [jobs@onlyjerkin.com](mailto:jobs@onlyjerkin.com) telling us a bit about yourself and attach your CV.
 - title: Let us know your thoughts
   text: Whether you loved it or felt we could do better, we want to hear it so we
     can either say thanks or make sure we put it right next time.
