@@ -7,11 +7,17 @@ intro-text: We are available for private hire and events UK wide. Let us know wh
   on your mind and we'll do our best to get back to you within 48 hours.
 details:
 - title: Weddings
-  text: "If you would like Only Jerkin' to bring a bit of street food fun to your wedding, fill in our contact form with as many details as you can and we will get back to you within 48 hrs. 
-If you are after a more relaxed form of catering, or some full flavoured food for your guests to devour in the evening after a long boozy day, then we are your guys.
-Our fee is based on your guest numbers, timings and location."
+  text: If you would like Only Jerkin' to bring a bit of street food fun to your wedding,
+    fill in our contact form with as many details as you can and we will get back
+    to you within 48 hrs. If you are after a more relaxed form of catering, or some
+    full flavoured food for your guests to devour in the evening after a long boozy
+    day, then we are your guys. Our fee is based on your guest numbers, timings and
+    location.
 - title: Festivals
-  text: Our summer is now filled with festival fun and we want to keep it that way. If you would like to see the jerk bus at your festival please email us and feel free to download our festival pack available below. We have traded at Field Day, Latitude, Love Saves The Day, British Summer Time and many more.
+  text: Our summer is now filled with festival fun and we want to keep it that way.
+    If you would like to see the jerk bus at your festival please email us and feel
+    free to download our festival pack available below. We have traded at Field Day,
+    Latitude, Love Saves The Day, British Summer Time and many more.
 - title: Events
   text: Street food will always be our heart and soul. So if you’re keen for Polú
     Poké to appear at your event, just send us a note with a little more detail. Tailor

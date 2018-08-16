@@ -1,9 +1,9 @@
 ---
 title: Find Us
 position: 2
-intro-text: "Visit Only Jerkin's kiosk Monday to Sunday in Camden Market, NW1.
-
-Our food truck and gazebo also appear regularly across London including Soho, Kings cross and West India Quay. Keep an eye out on our social channels for the latest goings on."
+intro-text: |-
+  Visit Only Jerkin's kiosk Monday to Sunday in Camden Market, NW1.
+  Our food truck and gazebo also appear regularly across London including Soho, Kings cross and West India Quay. Keep an eye out on our social channels for the latest goings on.
 locations:
 - title: Kerb Camden
   map: camden
