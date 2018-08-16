@@ -26,4 +26,4 @@ testimonials:
 layout: story
 ---
 
-The fried jerk chicken nugget in a ginger beer batter was born, our now signature and most popular dish. After a very positive response from feeding friends and family, we took to the streets of London, beginning our street food journey at Druid street market. You can now find our Caribbean fried chicken at Street Food Union in Soho and KERB markets across the capital every week, as well as our permanent unit in Camden
+In 2016 the fried jerk chicken nugget in a ginger beer batter was born, our now signature and most popular dish. After a very positive response from feeding friends and family, we took to the streets of London, beginning our street food journey at Druid street market. You can now find our Caribbean fried chicken at Street Food Union in Soho and KERB markets across the capital every week, as well as our permanent unit in Camden
