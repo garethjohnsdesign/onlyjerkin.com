@@ -3,8 +3,10 @@ title: Menu
 position: 1
 hero-image: "/uploads/only-jerkin-03.jpg"
 hero-text: Menu
-intro-text: Our menus can and will change but at the heart will always be our golden,
-  crisp fried chicken. Here’s some examples to get your taste buds tingling!
+intro-text: |-
+  At the heart of all our dishes is our triple dipped golden batter and homemade marinades.
+
+  We are also happy to create tailored menus to suit your occasion so drop us an [email](mailto:hello@onlyjerkin.com) if you have anything particular in mind.
 menu:
 - title: Fried Chicken Nuggets
   description: Fried Jerk Chicken Nuggets Triple Dipped in a Ginger Beer Batter
