@@ -94,7 +94,7 @@ layout: default
   <div class="grid-x grid-padding-x grid-padding-y align-center margin-top-2 margin-bottom-2">
     <div class="small-12 medium-10 large-8 cell text-center" data-aos="fade-in">
     {% assign story-text-meta = site.pages | where: 'layout', 'story' | first %}
-    {% assign story-text = story-text-meta.intro-text %}
+    {% assign story-text = story-text-meta.content %}
     <h4 class="margin-bottom-2">{{story-text}}</h4>
     <a href="/story" class="button hollow">Our Story</a>
     </div>
