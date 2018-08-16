@@ -23,13 +23,13 @@ details:
     From kid's birthday parties to big brand corporate events, Only Jerkin' thrive off catering private events. We can be flexible to your needs, whether that be customised menus or tailor made set up. Drop us an email with your requirements and we would be happy to figure out a solution to ensure your event runs smoothly and bellies are full and satisfied.\
     Previous clients include adidas, Google, Adobe, Red Bull, Dixons, Excel and many more.
 - title: Sound System
-  text: Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-    incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-    exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-    irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-    pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
-    deserunt mollit anim id est laborum. Donec elementum ligula eu sapien consequat
-    eleifend. Donec nec dolor erat.
+  text: Only Jerkin’ Sound System is a full takeover of venues around London, taking
+    control of the kitchen and sound, as well as tailored drinks using our sponsors
+    ‘Wray and Nephew’ and ‘Old Jamaica'. We are about bringing people from all backgrounds
+    together and creating a unique experience for people wanting to immerse themselves
+    in the vibrant Caribbean culture. Our sound is all the best music from Jamaican
+    origin, old and new, plus always expect a full dub sound system to blast dem big
+    riddims!
 layout: hire-us
 ---
 
