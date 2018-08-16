@@ -21,7 +21,7 @@ details:
 - title: Events
   text: |-
     From kid's birthday parties to big brand corporate events, Only Jerkin' thrive off catering private events. We can be flexible to your needs, whether that be customised menus or tailor made set up. Drop us an email with your requirements and we would be happy to figure out a solution to ensure your event runs smoothly and bellies are full and satisfied.\
-    Previous clients include adidas, Google, Adobe, Red Bull, Dixons, Excel and many more.
+    Previous clients include adidas, Google, Adobe, Red Bull, Excel and many more.
 - title: Sound System
   text: Only Jerkin’ Sound System is a full takeover of venues around London, taking
     control of the kitchen and sound, as well as tailored drinks using our sponsors
