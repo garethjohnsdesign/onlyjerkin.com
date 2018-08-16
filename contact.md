@@ -6,11 +6,11 @@ details:
   text: |-
     [hello@onlyjerkin.com](mailto:onlyjerkin.com)
 
-    Luke Dawes \
+    Luke Dawes  
     [\+44 079-0306-0321](tel:07903060321)
 
-    Luke Dawes \
-    [\+44 079-0306-0321](tel:07903060321)
+    Jessica Olson  
+    [\+44 077-0984-4443](tel:07709844443)
 - title: Follow Us
   text: "[Instagram](https://www.instagram.com)  \n[Twitter](https://twitter.com)
     \ \n[Vimeo](https://vimeo.com)  \n"

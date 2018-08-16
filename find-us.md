@@ -15,11 +15,11 @@ locations:
 - title: Kerb Markets
   map: markets
   description: |-
-    [Granary Square](https://goo.gl/maps/hNganTHj7JU2) — N1C 4BH\
-    [West India Quay](https://goo.gl/maps/qYpkjWQH1j82) — E14 4AE\
-    [Gherkin](https://goo.gl/maps/nkiuQUDao6U2) — EC3A 8EP\
-    [Paddington](https://goo.gl/maps/u5fdMeHo5zP2) — W2\
-    [St. Katharine Docks](https://goo.gl/maps/8XmqK4c31EA2) — E1W 1LA
+    [Granary Square](https://goo.gl/maps/hNganTHj7JU2) — N1C 4BH  
+    [West India Quay](https://goo.gl/maps/qYpkjWQH1j82) — E14 4AE  
+    [Gherkin](https://goo.gl/maps/nkiuQUDao6U2) — EC3A 8EP  
+    [Paddington](https://goo.gl/maps/u5fdMeHo5zP2) — W2  
+    [St. Katharine Docks](https://goo.gl/maps/8XmqK4c31EA2) — E1W 1LA  
 
     Please visit Kerb’s [website](https://www.kerbfood.com) for up-to-date information
   website: https://www.kerbfood.com
