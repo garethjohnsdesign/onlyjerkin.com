@@ -22,13 +22,13 @@ menu:
   description: Fried Jerk Chicken Triple Dipped in a Ginger Beer Batter, Sandwiched
     in coco bread
   extra: accompanied with cheese, chilli mango aioli, gherkins and lettuce
+- title: Fried Jerk Cauliflower
+  description: 
+  extra: served with jerk fries, creamy coleslaw, homemade dips
 - title: Chips and Dips
   description: Jerk fries topped with choice of homemade dips or jerk gravy
 - title: Dips
   description: Jerk Gravy Jerk, Ketchup Chilli, Mango Aioli, Lime and Coriander Mayo
-- title: Fried Jerk Cauliflower
-  description: 
-  extra: served with jerk fries, creamy coleslaw, homemade dips
 extra-text: Feel free to contact us regarding any dietary or allergen info.
 layout: food
 ---
