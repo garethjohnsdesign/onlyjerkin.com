@@ -589,20 +589,6 @@
 		"oAP": "\/assets\/fonts\/gallery.woff2",
 		"oF": 0
 		},
-	"\/assets\/fonts\/lacrimamg-serif.woff": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/assets\/fonts\/lacrimamg-serif.woff",
-		"oF": 0
-		},
-	"\/assets\/fonts\/lacrimamg-serif.woff2": {
-		"cB": 0,
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/assets\/fonts\/lacrimamg-serif.woff2",
-		"oF": 0
-		},
 	"\/assets\/fonts\/marrsans-regular.woff": {
 		"cB": 0,
 		"ft": 8192,
@@ -662,16 +648,6 @@
 		"oT": 1,
 		"q": 100
 		},
-	"\/assets\/js\/aos.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/assets\/js\/min\/aos-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
 	"\/assets\/js\/app.js": {
 		"ft": 64,
 		"ma": 0,
@@ -680,26 +656,6 @@
 		"oAP": "\/assets\/js\/min\/app-min.js",
 		"oF": 0,
 		"sC": 0,
-		"tS": 0
-		},
-	"\/assets\/js\/find-us.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/assets\/js\/min\/find-us-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/assets\/js\/home.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/assets\/js\/min\/home-min.js",
-		"oF": 0,
-		"sC": 1,
 		"tS": 0
 		},
 	"\/assets\/js\/links.js": {
@@ -722,42 +678,12 @@
 		"sC": 1,
 		"tS": 0
 		},
-	"\/assets\/js\/min\/find-us-min.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/assets\/js\/min\/min\/find-us-min-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/assets\/js\/min\/home-min.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/assets\/js\/min\/min\/home-min-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
 	"\/assets\/js\/min\/links-min.js": {
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 0,
 		"oAP": "\/assets\/js\/min\/min\/links-min-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/assets\/js\/min\/mapbox-min.js": {
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/assets\/js\/min\/min\/mapbox-min-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0

@@ -9,7 +9,7 @@ layout: compress
 {% include head.html %}
 <!-- End Head -->
 
-<body>
+<body class="{{page.layout | slugify}}">
   
 <!-- Off Canvas Navigation -->
 <div class="off-canvas position-right" id="offCanvas" data-off-canvas data-transition="overlap" data-close-on-click="false" data-content-scroll="false">
@@ -17,7 +17,7 @@ layout: compress
 </div>
 <!-- End Off Canvas Navigation --> 
 
-<div class="off-canvas-content {{page.layout | slugify}}" data-off-canvas-content>
+<div class="off-canvas-content" data-off-canvas-content>
 <!-- Navigation -->
 {% include navigation.html %}
 <!-- End Navigation -->
@@ -41,20 +41,6 @@ layout: compress
 <!-- End Footer -->
 
 </div>
-
-{% if page.layout == 'home' %}
-<script defer src='https://api.mapbox.com/mapbox-gl-js/v0.46.0/mapbox-gl.js'></script>
-<script defer src="/assets/js/min/home-min.js"></script>
-{% endif %}
-
-{% if page.layout == 'find-us' %}
-<script defer src='https://api.mapbox.com/mapbox-gl-js/v0.46.0/mapbox-gl.js'></script>
-<script defer src="/assets/js/min/find-us-min.js"></script>
-{% endif %}
-
-<script src="/assets/js/min/app-min.js"></script>
-<script src="/assets/js/min/svgxuse-min.js"></script>
-<script src="/assets/js/min/aos-min.js"></script>
 
 </body>
 
