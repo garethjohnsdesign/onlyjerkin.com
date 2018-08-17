@@ -118,7 +118,7 @@ layout: default
     {% for detail in page.details %}
       <div class="small-12 medium-6 cell" data-aos="fade-in">
         <h3 class="primary-font">{{ detail.title }}</h3>
-        <p>{{ detail.text }}</p>
+        <p>{{ detail.text | markdownify }}</p>
       </div>
     {% endfor %}
   </div>
