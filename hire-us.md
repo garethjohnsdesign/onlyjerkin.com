@@ -16,8 +16,8 @@ details:
 - title: Festivals
   text: Our summer is now filled with festival fun and we want to keep it that way.
     If you would like to see the jerk bus at your festival please email us and feel
-    free to download our festival pack available below. We have traded at Field Day,
-    Latitude, Love Saves The Day, British Summer Time and many more.
+    free to download our festival pack. We have traded at Field Day, Latitude, Love
+    Saves The Day, British Summer Time and many more.
 - title: Events
   text: From kid's birthday parties to big brand corporate events, Only Jerkin' thrive
     off catering private events. We can be flexible to your needs, whether that be
