@@ -9,7 +9,7 @@ layout: compress
 {% include head.html %}
 <!-- End Head -->
 
-<body>
+<body class="{{page.layout | slugify}}">
   
 <!-- Off Canvas Navigation -->
 <div class="off-canvas position-right" id="offCanvas" data-off-canvas data-transition="overlap" data-close-on-click="false" data-content-scroll="false">
@@ -17,40 +17,31 @@ layout: compress
 </div>
 <!-- End Off Canvas Navigation --> 
 
-<div class="off-canvas-content {{page.layout | slugify}}" data-off-canvas-content>
+<div class="off-canvas-content" data-off-canvas-content>
 <!-- Navigation -->
 {% include navigation.html %}
 <!-- End Navigation -->
 
 <!-- Content -->
 {{content}}
+
 <!-- End Content -->
 
 {% unless page.layout == "story" or "contact" %}
 <!-- Testimonials -->
 {% include testimonials.html %}
-<!-- End Testimonials-->
+<!-- End Testimonials -->
 {% endunless %}
-
 
 <!-- Subscribe -->
 {% include subscribe.html %}
-<!-- End Subscribe-->
-
+<!-- End Subscribe -->
 <!-- Footer -->
 {% include footer.html %}
-<!-- End Footer-->
+<!-- End Footer -->
+
 </div>
 
-<!-- Scripts -->
-{% include scripts.html %}
-<!-- End Scripts -->
-
-<!-- Google Analytics -->
-{% if site.analytics %}
-{% include analytics.html %}
-{% endif %}
-<!-- End Google Analytics -->
 </body>
 
 </html>
