@@ -24,29 +24,38 @@ layout: compress
 
 <!-- Content -->
 {{content}}
+
 <!-- End Content -->
 
 {% unless page.layout == "story" or "contact" %}
 <!-- Testimonials -->
 {% include testimonials.html %}
-<!-- End Testimonials-->
+<!-- End Testimonials -->
 {% endunless %}
-
 
 <!-- Subscribe -->
 {% include subscribe.html %}
-<!-- End Subscribe-->
-
+<!-- End Subscribe -->
 <!-- Footer -->
 {% include footer.html %}
-<!-- End Footer-->
+<!-- End Footer -->
+
 </div>
 
-<!-- Google Analytics -->
-{% if site.analytics %}
-{% include analytics.html %}
+{% if page.layout == 'home' %}
+<script defer src='https://api.mapbox.com/mapbox-gl-js/v0.46.0/mapbox-gl.js'></script>
+<script defer src="/assets/js/min/home-min.js"></script>
 {% endif %}
-<!-- End Google Analytics -->
+
+{% if page.layout == 'find-us' %}
+<script defer src='https://api.mapbox.com/mapbox-gl-js/v0.46.0/mapbox-gl.js'></script>
+<script defer src="/assets/js/min/find-us-min.js"></script>
+{% endif %}
+
+<script src="/assets/js/min/app-min.js"></script>
+<script src="/assets/js/min/svgxuse-min.js"></script>
+<script src="/assets/js/min/aos-min.js"></script>
+
 </body>
 
 </html>
