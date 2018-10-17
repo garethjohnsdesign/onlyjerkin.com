@@ -22,16 +22,8 @@ details:
   text: Whether you loved it or felt we could do better, we want to hear it so we
     can either say thanks or make sure we put it right next time. [hello@onlyjerkin.com](mailto:hello@onlyjerkin.com)
 - title: Legal
-  text: |-
-    Only Jerkin Ltd\
-    Quest House\
-    Suite 2 Ground Floor\
-    125-135 Staines Road\
-    Hounslow, United Kingdom\
-    TW3 3JB
-
-    Company — 11369782\
-    VAT — 300086555
+  text: "Only Jerkin Ltd  \nQuest House  \nSuite 2 Ground Floor   \n125-135 Staines
+    Road  \nHounslow, United Kingdom  \nTW3 3JB  \n\nCompany — 11369782  \nVAT — 300086555"
 layout: contact
 ---
 
