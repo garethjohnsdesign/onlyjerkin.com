@@ -84,28 +84,28 @@
 		"oAP": "/_includes/head.html",
 		"oF": 0
 		},
-	"/_includes/images/contained/1-1/interchange-img-small-12-medium-12.twig": {
+	"/_includes/images/contained/1-1/interchange-img-small-12-medium-12.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 2,
-		"oAP": "/_includes/images/contained/1-1/interchange-img-small-12-medium-12.twig",
+		"oAP": "/_includes/images/contained/1-1/interchange-img-small-12-medium-12.html",
 		"oF": 0
 		},
-	"/_includes/images/contained/1-1/interchange-img-small-12-medium-4.twig": {
+	"/_includes/images/contained/1-1/interchange-img-small-12-medium-4.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 2,
-		"oAP": "/_includes/images/contained/1-1/interchange-img-small-12-medium-4.twig",
+		"oAP": "/_includes/images/contained/1-1/interchange-img-small-12-medium-4.html",
 		"oF": 0
 		},
-	"/_includes/images/contained/1-1/interchange-img-small-12-medium-6.twig": {
+	"/_includes/images/contained/1-1/interchange-img-small-12-medium-6.html": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 2,
-		"oAP": "/_includes/images/contained/1-1/interchange-img-small-12-medium-6.twig",
+		"oAP": "/_includes/images/contained/1-1/interchange-img-small-12-medium-6.html",
 		"oF": 0
 		},
 	"/_includes/images/contained/16-9/interchange-img-small-12-medium-12.twig": {
@@ -500,6 +500,14 @@
 		"oAP": "/_layouts/page.html",
 		"oF": 0
 		},
+	"/_layouts/sound.html": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/_layouts/sound.html",
+		"oF": 0
+		},
 	"/_layouts/story.html": {
 		"cB": 0,
 		"ft": 8192,
@@ -513,6 +521,28 @@
 		"oA": 1,
 		"oAP": "/build/_site",
 		"oF": 0
+		},
+	"/_uploads/mixtape-01.jpg": {
+		"ft": 16384,
+		"iS": 32258,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_uploads/mixtape-01.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_uploads/mixtape-02.jpg": {
+		"ft": 16384,
+		"iS": 16790,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_uploads/mixtape-02.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"/_uploads/only-jerkin-01.jpg": {
 		"ft": 16384,
@@ -1868,6 +1898,25 @@
 		"oA": 2,
 		"oAP": "/robots.txt",
 		"oF": 0
+		},
+	"/sound.md": {
+		"cB": 0,
+		"cS": 0,
+		"eF": 1,
+		"eL": 1,
+		"ema": 1,
+		"eSQ": 1,
+		"ft": 4096,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/sound.md",
+		"oF": 0,
+		"oFM": 0,
+		"oS": 0,
+		"pHT": 0,
+		"pME": 1,
+		"rFN": 0,
+		"uCM": 0
 		},
 	"/story.md": {
 		"cB": 0,

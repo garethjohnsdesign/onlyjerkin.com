@@ -63,14 +63,14 @@ imgix:
   source: only-jerkin.imgix.net
 menu-file: "/uploads/only-jerkin-menu.pdf"
 breakpoints:
-  small: 640
+  small: 880
   medium: 1024
   large: 1440
   xlarge: 1440
   xxlarge: 1440
 breakpoints-contained:
-  small: '640'
-  medium: '1024'
-  large: '1200'
-  xlarge: '1200'
-  xxlarge: '1200'
+  small: 640
+  medium: 1024
+  large: 1440
+  xlarge: 1440
+  xxlarge: 1440
