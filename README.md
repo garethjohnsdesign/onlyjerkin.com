@@ -4,4 +4,4 @@ Site for Only Jerkin. Please go to [www.onlyjerkin.com](https://www.onlyjerkin.c
 
 * * *
 
-Copyright (c) 2018 Gareth Johns Design + Development – info@garethjohnsdesign.com
+Copyright (c) 2019 Gareth Johns Design + Development – info@garethjohnsdesign.com

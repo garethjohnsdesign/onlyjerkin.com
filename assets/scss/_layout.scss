@@ -233,3 +233,45 @@ footer {
   background-color: $primary-color;
   @include links ($white, $black)
 }
+
+// 17. Sound
+// ---------
+
+.sound {
+  background-color: $black;
+  color: $white;
+  @include links ($white, $primary-color)
+}
+
+.sound p a {
+  border-bottom: 1px solid $white;
+}
+
+// Extras
+
+@mixin aspect-ratio($width, $height) {
+  position: relative;
+  &:before {
+    display: block;
+    content: "";
+    width: 100%;
+    padding-top: ($height / $width) * 100%;
+  }
+ .content {
+    transition: $primary-transition;
+    z-index: 1;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 100%;
+    width: 100%;
+  }
+}
+
+.image {
+  @include aspect-ratio (1, 1);
+  background-size: cover; 
+  background-position: 50%;
+}
