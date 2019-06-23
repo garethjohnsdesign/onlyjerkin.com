@@ -25,11 +25,15 @@ exclude:
 - ".gitignore"
 - bower_components
 - assets/scss
+- ".jekyll-cache"
 plugins:
 - jekyll-seo-tag
 - jekyll-sitemap
 - jekyll-feed
 - jekyll/imgix
+- jekyll-mentions
+- jekyll-default-layout
+- jekyll-include-cache
 markdown: kramdown
 kramdown:
   auto_ids: false
@@ -48,7 +52,7 @@ social:
   instagram: https://www.instagram.com/onlyjerkin/
   facebook: https://www.facebook.com/onlyjerkin/
   twitter: https://twitter.com/onlyjerkin
-  spotify: https://www.spotify.com
+  mixcloud: https://www.mixcloud.com/ljdawes/
 compress_html:
   comments:
   - "<!-- "
@@ -58,3 +62,15 @@ compress_html:
 imgix:
   source: only-jerkin.imgix.net
 menu-file: "/uploads/only-jerkin-menu.pdf"
+breakpoints:
+  small: 880
+  medium: 1024
+  large: 1440
+  xlarge: 1440
+  xxlarge: 1440
+breakpoints-contained:
+  small: 640
+  medium: 1024
+  large: 1440
+  xlarge: 1440
+  xxlarge: 1440
