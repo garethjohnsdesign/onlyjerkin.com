@@ -14,7 +14,8 @@ sounds:
   title: Mixtape 02
   acts: Dawesy
   description: Jungle Mix
-  text: Playing tracks by Aries & Tuffist, Breakage, Pumble, DJ Monk & Tico, Echo Minott and more.
+  text: Playing tracks by Aries & Tuffist, Breakage, Pumble, DJ Monk & Tico, Echo
+    Minott and more.
   link: https://www.mixcloud.com/ljdawes/jungle-mix/
 layout: sound
 ---
