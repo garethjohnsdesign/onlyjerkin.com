@@ -7,7 +7,7 @@
 		"uuidString": "EDB44E38-DB9B-408C-B9C2-C572FB45B1A6"
 		}
 	],
-"creatorBuild": "29156",
+"creatorBuild": "31483",
 "files": {
 	"/.gitattributes": {
 		"cB": 0,
@@ -1027,7 +1027,7 @@
 		"q": 100
 		},
 	"/assets/js/app.js": {
-		"bF": 0,
+		"bF": 4,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
@@ -1035,17 +1035,6 @@
 		"oAP": "/assets/js/min/app-min.js",
 		"oF": 0,
 		"sC": 0,
-		"tS": 0
-		},
-	"/assets/js/links.js": {
-		"bF": 0,
-		"ft": 64,
-		"ma": 0,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "/assets/js/min/links-min.js",
-		"oF": 0,
-		"sC": 1,
 		"tS": 0
 		},
 	"/assets/js/min/app-min.js": {
@@ -1091,19 +1080,6 @@
 		"oF": 0,
 		"sC": 0,
 		"tS": 0
-		},
-	"/assets/scss/_carousel.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/assets/css/_carousel.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
 		},
 	"/assets/scss/_fonts.scss": {
 		"aP": 0,
@@ -1153,19 +1129,6 @@
 		"ma": 0,
 		"oA": 1,
 		"oAP": "/assets/css/_lightgallery.css",
-		"oF": 0,
-		"oS": 0,
-		"uL": 1
-		},
-	"/assets/scss/_loading.scss": {
-		"aP": 0,
-		"bl": 0,
-		"dP": 10,
-		"dS": 0,
-		"ft": 4,
-		"ma": 0,
-		"oA": 1,
-		"oAP": "/assets/css/_loading.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
@@ -1814,68 +1777,90 @@
 		"oAP": "/build/node_modules",
 		"oF": 0
 		},
-	"/node_modules/../node_modules/aos/dist/aos.js": {
+	"/node_modules/@swup/body-class-plugin/lib/index.js": {
 		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 1,
-		"oAP": "/node_modules/../node_modules/aos/dist/min/aos-min.js",
+		"oAP": "/node_modules/@swup/body-class-plugin/lib/min/index-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"/node_modules/../node_modules/foundation-sites/dist/js/foundation.js": {
+	"/node_modules/aos/dist/aos.js": {
 		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 1,
-		"oAP": "/node_modules/../node_modules/foundation-sites/dist/js/min/foundation-min.js",
+		"oAP": "/node_modules/aos/dist/min/aos-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"/node_modules/../node_modules/jquery/dist/jquery.js": {
+	"/node_modules/foundation-sites/dist/js/foundation.esm.js": {
 		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 1,
-		"oAP": "/node_modules/../node_modules/jquery/dist/min/jquery-min.js",
+		"oAP": "/node_modules/foundation-sites/dist/js/min/foundation.esm-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"/node_modules/../node_modules/lightgallery/dist/js/lightgallery-all.js": {
+	"/node_modules/jquery/dist/jquery.js": {
 		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 1,
-		"oAP": "/node_modules/../node_modules/lightgallery/dist/js/min/lightgallery-all-min.js",
+		"oAP": "/node_modules/jquery/dist/min/jquery-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"/node_modules/../node_modules/motion-ui/dist/motion-ui.js": {
+	"/node_modules/lg-fullscreen/dist/lg-fullscreen.js": {
 		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 1,
-		"oAP": "/node_modules/../node_modules/motion-ui/dist/min/motion-ui-min.js",
+		"oAP": "/node_modules/lg-fullscreen/dist/min/lg-fullscreen-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
 		},
-	"/node_modules/../node_modules/what-input/dist/what-input.js": {
+	"/node_modules/lg-video/dist/lg-video.js": {
 		"bF": 0,
 		"ft": 64,
 		"ma": 0,
 		"mi": 1,
 		"oA": 1,
-		"oAP": "/node_modules/../node_modules/what-input/dist/min/what-input-min.js",
+		"oAP": "/node_modules/lg-video/dist/min/lg-video-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/node_modules/lightGallery/dist/js/lightgallery.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/node_modules/lightGallery/dist/js/min/lightgallery-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
+	"/node_modules/swup/lib/index.js": {
+		"bF": 0,
+		"ft": 64,
+		"ma": 0,
+		"mi": 1,
+		"oA": 1,
+		"oAP": "/node_modules/swup/lib/min/index-min.js",
 		"oF": 0,
 		"sC": 1,
 		"tS": 0
@@ -2013,6 +1998,7 @@
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
+	"allowInjectionReloads": 1,
 	"alwaysUseExternalServer": 0,
 	"animateCSSInjections": 1,
 	"autoBuildNewItems": 1,
@@ -2024,6 +2010,7 @@
 	"babelConfigType": 0,
 	"babelCustomPluginsList": "",
 	"babelCustomPresetsList": "",
+	"babelExcludeString": "'node_modules/**', 'bower_components/**', /\\/core-js\\//",
 	"babelInsertModuleIDs": 0,
 	"babelModuleID": "",
 	"babelNoComments": 0,
@@ -2163,6 +2150,9 @@
 		"modules-umd": {
 			"active": 0
 			},
+		"named-capturing-groups-regex": {
+			"active": 0
+			},
 		"new-target": {
 			"active": 0
 			},
@@ -2194,6 +2184,9 @@
 			"active": 0
 			},
 		"parameters": {
+			"active": 0
+			},
+		"partial-application": {
 			"active": 0
 			},
 		"pipeline-operator": {
@@ -2288,11 +2281,10 @@
 			}
 		},
 	"babelRetainLines": 0,
+	"babelUseBuiltInsType": 0,
 	"bowerAbbreviatedPath": "bower_components",
-	"bowerAutoCreateInfoFile": 1,
-	"bowerInstallDevDependencies": 0,
-	"bowerSaveDependencies": 1,
-	"bowerSaveDevDependencies": 0,
+	"bowerForceLatestOnConflict": 1,
+	"bowerTargetDependencyListType": 1,
 	"bowerUseExactVersion": 0,
 	"browserRefreshDelay": 3,
 	"browserslistString": ">0.2%, last 2 versions, Firefox ESR, not dead",
@@ -3297,6 +3289,10 @@
 			"active": 0,
 			"optionString": "{'array': true, 'object': true}, {'enforceForRenamedProperties': false}"
 			},
+		"prefer-named-capture-group": {
+			"active": 0,
+			"optionString": ""
+			},
 		"prefer-numeric-literals": {
 			"active": 0,
 			"optionString": ""
@@ -4050,6 +4046,11 @@
 		},
 	"languageDefaultsUserDefined": [
 		],
+	"npmAbbreviatedPath": "",
+	"npmCreatePackageLock": 1,
+	"npmInstallOptionalDependencies": 0,
+	"npmSaveExactVersion": 0,
+	"npmTargetDependencyListType": 1,
 	"overrideExternalServerCSS": 0,
 	"previewPathAddition": "",
 	"skippedFoldersString": "log, _logs, logs, _cache, cache, /storage/framework/sessions, node_modules, /_site",
