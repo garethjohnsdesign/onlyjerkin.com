@@ -6,7 +6,7 @@ location: Peckham Rye Park
 address: Peckham Rye Park, SE15 London
 start-date: 2019-05-27 12:00:00 Z
 end-date: 2019-05-27 22:00:00 Z
-acts:
+acts: 
 link: https://www.facebook.com/events/2213671848956354/
 ---
 
