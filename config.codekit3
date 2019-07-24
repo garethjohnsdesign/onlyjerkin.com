@@ -68,12 +68,20 @@
 		"oAP": "/_events/culture-sessions.markdown",
 		"oF": 0
 		},
-	"/_events/duppy-dance.markdown": {
+	"/_events/duppy-darnce.markdown": {
 		"cB": 0,
 		"ft": 8192,
 		"hM": 0,
 		"oA": 2,
-		"oAP": "/_events/duppy-dance.markdown",
+		"oAP": "/_events/duppy-darnce.markdown",
+		"oF": 0
+		},
+	"/_events/jam-on-rye.markdown": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/_events/jam-on-rye.markdown",
 		"oF": 0
 		},
 	"/_includes/analytics.html": {
@@ -545,6 +553,28 @@
 		"oA": 1,
 		"oAP": "/build/_site",
 		"oF": 0
+		},
+	"/_uploads/duppy-darnce.jpg": {
+		"ft": 16384,
+		"iS": 267722,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_uploads/duppy-darnce.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
+	"/_uploads/jam-on-rye.jpg": {
+		"ft": 16384,
+		"iS": 239640,
+		"jF": 0,
+		"oA": 0,
+		"oAP": "/_uploads/jam-on-rye.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
 		},
 	"/_uploads/mixtape-01.jpg": {
 		"ft": 16384,

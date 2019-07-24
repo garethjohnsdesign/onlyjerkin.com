@@ -1,9 +1,9 @@
 ---
-title: Duppy Dance
+title: Duppy Darnce
 date: 2019-07-06 23:00:00 Z
-image: "/uploads/mixtape-02.jpg"
+image: "/uploads/duppy-darnce.jpg"
 location: Mama Roux and Spotlight
-address: Lower Trinity Street, B9 4a Birmingham
+address: Lower Trinity Street, B9 4A Birmingham
 start-date: 2019-07-06 23:00:00 Z
 end-date: 2019-07-07 04:00:00 Z
 acts: Moho Family &  OJ Sound DJs
