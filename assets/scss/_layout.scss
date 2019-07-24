@@ -247,6 +247,14 @@ footer {
   border-bottom: 1px solid $white;
 }
 
+.sound .off-canvas {
+  @include links ($black, $white)
+}
+
+.sound .off-canvas .active {
+  @include links ($white, $black)
+}
+
 // 17. Events
 // ---------
 
