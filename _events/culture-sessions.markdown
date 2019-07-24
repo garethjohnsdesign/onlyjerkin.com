@@ -6,7 +6,8 @@ location: Mama Roux's
 address: Unit 3, Lower trinity Street, Birmingham
 start-date: 2019-07-20 00:00:00 Z
 end-date: Late
-artists: Goosensei, Natty D, Freshta, Richie Culture, Latifah Stone
+acts: Goosensei, Natty D, Freshta, Richie Culture, Latifah Stone
+link: https://www.facebook.com/events/329367751347101/
 ---
 
 Celebrating UK Bass Culture, Raggae, Grime, Jungle, Garage, Afro-bashment, Dancehall

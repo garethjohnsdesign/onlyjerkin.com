@@ -5,19 +5,21 @@ layout: default
 <div class="grid-container">
   
   <div class="grid-x grid-padding-x small-up-1 medium-up-2 large-up-3">
-      {% for sound in page.sounds %}
+      {% for event in site.events %}
       <div class="cell margin-bottom-2" data-aos="fade-in">
-        {% assign image = sound.image %}
-        <a href="{{sound.link}}">
+        {% assign image = event.image %}
+        <a href="{{event.link}}">
         <div class="image margin-bottom-1" data-interchange="{% include images/contained/1-1/interchange-img-small-12-medium-4.html %}">
-           <div class="content"><svg class="icon icon-play_arrow"><use xlink:href="/assets/icons/symbol-defs.svg#icon-play_arrow"></use></svg></div>
         </div>
         </a>
 
-        <div class="h3 primary-font margin-bottom-0">{{sound.title}}</div>
-        <div class="h3 primary-font margin-bottom-0">{{sound.description}}</div>
-        <div class="margin-bottom-1 h3 primary-font">{{sound.acts}}</div>
-        {{sound.text | markdownify}}
+        <div class="h3 primary-font margin-bottom-0">{{event.title}}</div>
+        <div class="h4 primary-font">{{ event.start-date | date: "%A %-d %B" }}</div>
+        <div class="h4 primary-font">{{ event.start-date | date: "%l:%M%p" }}</div>
+        <div class="h4 primary-font">{{event.location}}</div>
+        <div class="margin-bottom-0">{{event.content | markdownify}}</div>
+        <div class="margin-bottom-1">{{event.acts}}</div>
+        <a href="{{event.link}}">Link</a>
       </div>
       {% endfor %}
   </div>

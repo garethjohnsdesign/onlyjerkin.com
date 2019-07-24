@@ -247,6 +247,19 @@ footer {
   border-bottom: 1px solid $white;
 }
 
+// 17. Events
+// ---------
+
+.events {
+  background-color: $black;
+  color: $white;
+  @include links ($white, $primary-color)
+}
+
+.events p a {
+  border-bottom: 1px solid $white;
+}
+
 // Extras
 
 @mixin aspect-ratio($width, $height) {
