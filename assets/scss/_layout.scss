@@ -2,7 +2,6 @@
 //
 //   1. Mixins
 //   2. Global
-//   3. Plugins
 //   4. Color
 //   5. Typography
 //   6. Navigation
@@ -36,6 +35,7 @@
 body {
   cursor: default;
   font-kerning: normal;
+  transition: background-color 400ms cubic-bezier(0.645, 0.045, 0.355, 1);
 }
 
 svg {
@@ -49,14 +49,6 @@ svg {
 
 :focus {
   outline: 0;
-}
-
-// 3. Plugins
-// ----------
-
-.turbolinks-progress-bar {
-  height: 5px;
-  background-color: $primary-color;
 }
 
 // 4. Color
@@ -211,6 +203,14 @@ p a {
   border-bottom: 1px solid $white;
 }
 
+.contact .off-canvas {
+  @include links ($black, $white)
+}
+
+.contact .off-canvas .active {
+  @include links ($white, $black)
+}
+
 // 15. Page
 // --------
 
@@ -260,6 +260,14 @@ footer {
   border-bottom: 1px solid $white;
 }
 
+.events .off-canvas {
+  @include links ($black, $white)
+}
+
+.events .off-canvas .active {
+  @include links ($white, $black)
+}
+
 // Extras
 
 @mixin aspect-ratio($width, $height) {
@@ -287,4 +295,37 @@ footer {
   @include aspect-ratio (1, 1);
   background-size: cover; 
   background-position: 50%;
+}
+
+// 3. Animations
+// -------------
+
+.swup-transition-fade {
+  transition: 0.4s;
+  opacity: 1;
+}
+
+html.is-animating .swup-transition-fade {
+  opacity: 0;
+}
+
+.swup-transition-left {
+  transition: 0.4s;
+  transform: translateX(0);
+}
+
+html.is-animating .swup-transition-left {
+  opacity: 0;
+  transform: translateX(-100px);
+}
+
+.swup-transition-up {
+  transform: translateY(0);
+  transition: 0.4s;
+  transition-timing-function: cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+html.is-animating .swup-transition-up {
+  opacity: 0;
+  transform: translateY(-1rem);
 }

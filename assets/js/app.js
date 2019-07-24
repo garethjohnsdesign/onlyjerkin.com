@@ -164,7 +164,7 @@ $(function() {
 
 const options = {
   animationSelector: '[class*="swup-transition-"]',
-  containers: [ '#swup-body' ],
+  containers: [ '#swup-body', '#swup-menu' ],
   plugins: [ new SwupBodyClassPlugin() ]
 };
 const swup = new Swup( options );
