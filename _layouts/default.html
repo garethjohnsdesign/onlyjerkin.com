@@ -17,15 +17,16 @@ layout: compress
 </div>
 <!-- End Off Canvas Navigation --> 
 
-<div class="off-canvas-content" data-off-canvas-content>
+<div class="off-canvas-content" data-off-canvas-content id="swup-body">
 <!-- Navigation -->
 {% include navigation.html %}
 <!-- End Navigation -->
 
+<div class="swup-transition-fade">
 <!-- Content -->
 {{content}}
-
 <!-- End Content -->
+</div>
 
 {% unless page.layout == "story" or "contact" %}
 <!-- Testimonials -->
