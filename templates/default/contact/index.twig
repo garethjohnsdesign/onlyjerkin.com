@@ -1,0 +1,38 @@
+{% set bodyClass = 'products' %}
+
+{% extends "_layouts/site" %}
+
+{% block main %}
+
+<!-- Hero -->
+{% include "_includes/blocks/hero" %}    
+<!-- Hero -->
+
+<!-- Layout -->
+{#
+<div class="grid-x grid-padding-y">
+  <div class="small-12 cell">
+    {% include "_includes/blocks/layout" %}    
+  </div>
+</div>
+#}
+<!-- End Layout -->
+
+<!-- Contact -->
+<div class="grid-container">
+  <div class="grid-x grid-padding-x grid-padding-y small-up-1 medium-up-2 large-up-3 padding-vertical-3">
+    {% for detail in entry.detail.all() %}
+      <div class="cell">
+        <h3>{{ detail.header }}</h3>
+        {{ detail.copy }}
+      </div>
+    {% endfor %}
+  </div>
+</div>
+<!-- End Contact  -->
+
+<!-- Newsletter -->
+{% include "_includes/global/newsletter" %}
+<!-- End Newsletter -->
+
+{% endblock %}

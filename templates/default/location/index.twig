@@ -1,0 +1,75 @@
+{% set bodyClass = 'location' %}
+
+{% extends "_layouts/site" %}
+
+{% block main %}
+
+<div class="grid-x">
+  <div class="small-12 cell">
+    <div id="map" class="map"></div>
+  </div>
+</div>
+
+<!-- Details -->
+<div class="grid-container">
+  <div class="grid-x grid-padding-x grid-padding-y small-up-1 medium-up-2 large-up-2 padding-vertical-3">
+    {% for detail in entry.detail.all() %}
+      <div class="cell text-center">
+        <h3>{{ detail.header }}</h3>
+        {{ detail.copy }}
+      </div>
+    {% endfor %}
+  </div>
+</div>
+<!-- End Details  -->
+
+
+{% js %}
+mapboxgl.accessToken = "pk.eyJ1IjoiZ2FyZXRoam9obnNkZXNpZ24iLCJhIjoiY2szeWllcnhiMGxyZTNncDZiZmRnNmYwdSJ9.WkvmU6fiN5LX8UbYcHuAiA";
+
+var map = new mapboxgl.Map({
+  container: 'map',
+  style: 'mapbox://styles/garethjohnsdesign/ck3yifoi209ig1ct8bo75sf4x?optimize=true',
+  center: [{{site.location.lng}}, {{site.location.lat}}],
+  zoom: 12,
+  scrollZoom: false,
+  pitch: 60, // pitch in degrees
+  bearing: -60, // bearing in degrees
+});
+
+var geojson = {
+  type: 'FeatureCollection',
+  features: 
+  [
+  {
+    type: 'Feature',
+    geometry: {
+      type: 'Point',
+      coordinates: [{{site.location.lng}}, {{site.location.lat}}]
+    },
+  },
+  ]
+};
+ 
+  // add markers to map
+  geojson.features.forEach(function(marker) {
+
+  // create a HTML element for each feature
+  var el = document.createElement('div');
+  el.className = 'marker';
+
+  // make a marker for each feature and add to the map
+  new mapboxgl.Marker(el)
+    .setLngLat(marker.geometry.coordinates)
+    .addTo(map);
+});
+
+map.addControl(new mapboxgl.NavigationControl(), 'bottom-right');
+map.addControl(new mapboxgl.GeolocateControl ({positionOptions: {enableHighAccuracy: true},trackUserLocation: true}), 'bottom-left');
+
+// disable map zoom when using scroll
+map.scrollZoom.disable();
+
+{% endjs %}
+
+{% endblock %}

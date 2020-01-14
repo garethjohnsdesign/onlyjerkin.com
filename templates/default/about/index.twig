@@ -1,0 +1,19 @@
+{% set bodyClass = 'about' %}
+
+{% extends "_layouts/site" %}
+
+{% block main %}
+
+<!-- Hero -->
+{% include "_includes/blocks/hero" %}    
+<!-- Hero -->
+
+<!-- Layout -->
+<div class="grid-x grid-padding-y">
+  <div class="small-12 cell">
+    {% include "_includes/blocks/layout" %}    
+  </div>
+</div>
+<!-- End Layout -->
+
+{% endblock %}
