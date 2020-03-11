@@ -24,6 +24,8 @@ details:
 - title: Legal
   text: "Only Jerkin Ltd  \nQuest House  \nSuite 2 Ground Floor   \n125-135 Staines
     Road  \nHounslow, United Kingdom  \nTW3 3JB  \n\nCompany — 11369782  \nVAT — 300086555"
+- title: Terms of Business
+  text: View our terms [here](/terms-of-business)
 layout: contact
 ---
 
