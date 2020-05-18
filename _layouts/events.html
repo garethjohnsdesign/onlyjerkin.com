@@ -7,7 +7,7 @@ layout: default
 
       {% assign sorted = site.events | sort: 'start-date' | reverse %}
       {% for event in sorted %}
-      <div class="cell margin-bottom-2" data-aos="fade-in">
+      <div class="cell margin-bottom-2" data-aos="none">
         {% assign image = event.image %}
         <a href="{{event.link}}">
         <div class="image margin-bottom-1" data-interchange="{% include images/contained/1-1/interchange-img-small-12-medium-4.html %}">

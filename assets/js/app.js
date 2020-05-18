@@ -3,6 +3,7 @@
 
 import $ from "jquery";
 import Foundation from 'foundation-sites';
+import Cookie from 'jquery.cookie';
 import "lightGallery";
 import "lg-fullscreen";
 import "lg-video";
@@ -88,6 +89,29 @@ $(function() {
   }
 });
 
+
+// 2. Covid
+// -------------
+
+Foundation.MediaQuery.current
+
+if (Foundation.MediaQuery.atLeast('medium')) {
+
+  $(function() {
+    if($.cookie('showed_modal') !== "true") {
+  
+  setTimeout(
+    function() 
+    {
+  $("#covidModal").foundation("open");
+    }, 250);
+  
+      $.cookie('showed_modal', 'true', { expires: 365 }); 
+    }
+  });
+
+}
+
 // 7. Find Us
 // ----------
 
@@ -157,6 +181,7 @@ $(function() {
 $(function() {
   window.addEventListener('load', AOS.refresh);
 });
+
 }
 
 // 9. Page Transitions

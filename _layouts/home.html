@@ -8,16 +8,39 @@ layout: default
 <section class="hero" data-interchange="{% include images/full/full/interchange-img-small-12-medium-12.html %}">
   <div class="grid-x align-middle align-center" style="height: 100%;">
     <div class="small-10  medium-10 large-8 xxlarge-6 cell text-center">
-      <h1 class="primary-font white" data-aos="fade-in">{{page.hero-text}}</h1>
+      <h1 class="primary-font white" data-aos="none">{{page.hero-text}}</h1>
     </div>
   </div>
 </section>
 <!-- End Menu Hero -->
 
+<!-- Click and Collect -->
+<section class="grid-container">
+  <div class="grid-x grid-padding-x grid-padding-y align-center margin-top-2 margin-bottom-2">
+    <div class="small-12 medium-10 large-10 cell text-center">
+      <h3 class="primary-font">Covid-19 Update</h3>
+      {{page.covid-text | markdownify}}
+
+      <div class="grid-x grid-padding-x grid-padding-y">
+        <div class="small-12 medium-6 cell text-center">
+         <a href="https://only-jerkin.orderswift.com" class="button hollow expanded">Click + Collect</a>
+         Erdington, Kennington, Bethnal Green
+        </div>
+        <div class="small-12 medium-6 cell text-center">
+         <a href="https://deliveroo.co.uk" class="button hollow expanded">Delivery</a>
+         Birmingham Th-Su, Bethnal Green M-Su & Kennington M-Su
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+<!-- End Click and Collect -->
+
 <!-- Menu Intro -->
 <section class="grid-container">
   <div class="grid-x grid-padding-x grid-padding-y align-center margin-top-2 margin-bottom-2">
-    <div class="small-12 medium-10 large-10 cell text-center" data-aos="fade-in">
+    <div class="small-12 medium-10 large-10 cell text-center" data-aos="none">
       <h4>{{page.intro-text}}</h4>
     </div>
   </div>
@@ -44,7 +67,7 @@ layout: default
     {% assign detail-items-meta = site.pages | where: 'layout', 'story' | first %}
     {% assign detail-items = detail-items-meta.details %}
     {% for detail in detail-items %}
-      <div class="small-12 medium-6 cell" data-aos="fade-in">
+      <div class="small-12 medium-6 cell" data-aos="none">
         <h3 class="primary-font">{{ detail.title }}</h3>
         <p>{{ detail.text }}</p>
       </div>
@@ -65,7 +88,7 @@ layout: default
     {% assign menu-items-meta = site.pages | where: 'layout', 'food' | first %}
     {% assign menu-items = menu-items-meta.menu %}
     {% for item in menu-items %}
-      <div class="cell" data-aos="fade-in">
+      <div class="cell" data-aos="none">
         <h3 class="primary-font">{{ item.title }}</h3>
         <p>{{ item.description }}</p>
         {% if item.extra %}
@@ -76,7 +99,7 @@ layout: default
   </div>
   
   <div class="grid-x grid-padding-x grid-padding-y">
-    <div class="small-12 cell text-center" data-aos="fade-in">
+    <div class="small-12 cell text-center" data-aos="none">
       <a href="{{site.menu-file}}" class="button hollow">Sample Menu <svg class="icon icon-expand_more"><use xlink:href="/assets/icons/symbol-defs.svg#icon-expand_more"></use></svg></a>
     </div>
   </div>
@@ -92,7 +115,7 @@ layout: default
 <!-- Home Story -->
 <section class="grid-container">
   <div class="grid-x grid-padding-x grid-padding-y align-center margin-top-2 margin-bottom-2">
-    <div class="small-12 medium-10 large-8 cell text-center" data-aos="fade-in">
+    <div class="small-12 medium-10 large-8 cell text-center" data-aos="none">
     {% assign story-text-meta = site.pages | where: 'layout', 'story' | first %}
     {% assign story-text = story-text-meta.content %}
     <h4 class="margin-bottom-2">{{story-text}}</h4>
@@ -112,7 +135,7 @@ layout: default
 {% assign locations-meta = site.pages | where: 'layout', 'find-us' | first %}
 {% assign locations = locations-meta.locations %}
 {% for location in locations %}
-<div class="small-12 medium-6 cell text-center" data-aos="fade-in">
+<div class="small-12 medium-6 cell text-center" data-aos="none">
 <h3 class="primary-font">{{ location.title }}</h3>
 {{ location.description | markdownify }}
 </div>
