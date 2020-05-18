@@ -43,6 +43,34 @@ layout: compress
 
 </div>
 
+<div class="reveal" id="covidModal" data-reveal>
+
+
+  <div class="grid-x grid-padding-x grid-padding-y align-center margin-top-2 margin-bottom-2">
+    <div class="small-12 medium-10 large-10 cell text-center">
+
+      <h3 class="primary-font">Covid-19 Update</h3>
+      {{site.covid-text | markdownify}}
+
+      <div class="grid-x grid-padding-x grid-padding-y">
+        <div class="small-12 medium-6 cell text-center">
+         <a href="https://only-jerkin.orderswift.com" class="button expanded">Click + Collect</a>
+         Erdington, Kennington, Bethnal Green
+        </div>
+        <div class="small-12 medium-6 cell text-center">
+         <a href="https://only-jerkin.orderswift.com" class="button expanded">Delivery</a>
+         Birmingham Th-Su, Bethnal Green M-Su & Kennington M-Su
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <button class="close-button" data-close aria-label="Close modal" type="button">
+    <span aria-hidden="true">&times;</span>
+  </button>
+</div>
+
 </body>
 
 </html>

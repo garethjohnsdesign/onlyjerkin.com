@@ -337,3 +337,11 @@ html.is-animating .swup-transition-up {
   opacity: 0;
   transform: translateY(-1rem);
 }
+
+
+// Reveal
+
+.reveal {
+  color: $black;
+  @include links ($black, $white)
+}

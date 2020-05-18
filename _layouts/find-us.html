@@ -5,7 +5,7 @@ layout: default
 <!-- Find Us Intro -->
 <section class="grid-container">
   <div class="grid-x grid-padding-x grid-padding-y align-center">
-    <div class="small-12 medium-10 large-10 cell text-center" data-aos="fade-in">
+    <div class="small-12 medium-10 large-10 cell text-center" data-aos="none">
       {{page.intro-text | markdownify}}
     </div>
   </div>
@@ -16,14 +16,14 @@ layout: default
 <section class="grid-container">
   
   <div class="grid-x grid-padding-x grid-padding-y align-center">
-    <div class="small-12 medium-10 large-8 cell text-center" data-aos="fade-in">
+    <div class="small-12 medium-10 large-8 cell text-center" data-aos="none">
       <h2 class="primary-font">Locations</h2>
     </div>
   </div>
   
   <div class="grid-x grid-padding-x grid-padding-y">
     {% for location in page.locations %}
-    <div class="small-12 medium-6 cell" data-aos="fade-in">
+    <div class="small-12 medium-6 cell" data-aos="none">
       <div id="{{ location.map }}" style="width: 100%; height: 20rem" class="margin-bottom-1"></div>
       <div class="text-center medium-text-left">
       <h3 class="primary-font">{{ location.title }}</h3>

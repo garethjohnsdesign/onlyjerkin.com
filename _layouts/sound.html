@@ -6,7 +6,7 @@ layout: default
   
   <div class="grid-x grid-padding-x small-up-1 medium-up-2 large-up-3">
       {% for sound in page.sounds %}
-      <div class="cell margin-bottom-2" data-aos="fade-in">
+      <div class="cell margin-bottom-2" data-aos="none">
         {% assign image = sound.image %}
         <a href="{{sound.link}}">
         <div class="image margin-bottom-1" data-interchange="{% include images/contained/1-1/interchange-img-small-12-medium-4.html %}">
