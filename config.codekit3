@@ -985,6 +985,54 @@
 		"oAP": "/assets/favicons/site.webmanifest",
 		"oF": 0
 		},
+	"/assets/fonts/din-pro-cond-medium.ttf": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/assets/fonts/din-pro-cond-medium.ttf",
+		"oF": 0
+		},
+	"/assets/fonts/din-pro-cond-medium.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/assets/fonts/din-pro-cond-medium.woff",
+		"oF": 0
+		},
+	"/assets/fonts/din-pro-cond-medium.woff2": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/assets/fonts/din-pro-cond-medium.woff2",
+		"oF": 0
+		},
+	"/assets/fonts/eds-market-bold-slant.ttf": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/assets/fonts/eds-market-bold-slant.ttf",
+		"oF": 0
+		},
+	"/assets/fonts/eds-market-bold-slant.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/assets/fonts/eds-market-bold-slant.woff",
+		"oF": 0
+		},
+	"/assets/fonts/eds-market-bold-slant.woff2": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/assets/fonts/eds-market-bold-slant.woff2",
+		"oF": 0
+		},
 	"/assets/fonts/gallery.woff": {
 		"cB": 0,
 		"ft": 8192,
@@ -1015,6 +1063,30 @@
 		"hM": 0,
 		"oA": 2,
 		"oAP": "/assets/fonts/marrsans-regular.woff2",
+		"oF": 0
+		},
+	"/assets/fonts/salsbury-regular.ttf": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/assets/fonts/salsbury-regular.ttf",
+		"oF": 0
+		},
+	"/assets/fonts/salsbury-regular.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/assets/fonts/salsbury-regular.woff",
+		"oF": 0
+		},
+	"/assets/fonts/salsbury-regular.woff2": {
+		"cB": 0,
+		"ft": 8192,
+		"hM": 0,
+		"oA": 2,
+		"oAP": "/assets/fonts/salsbury-regular.woff2",
 		"oF": 0
 		},
 	"/assets/fonts/true-north.woff": {

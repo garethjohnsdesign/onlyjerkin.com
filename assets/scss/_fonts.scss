@@ -1,11 +1,30 @@
 @font-face {
-  font-family: 'True North';
+  font-family: 'Salsbury';
   src: 
-  url('../fonts/true-north.woff2') format('woff2'), 
-  url('../fonts/true-north.woff') format('woff');
+  url('../fonts/salsbury-regular.woff2') format('woff2'), 
+  url('../fonts/salsbury-regular.woff') format('woff');
   font-weight: normal;
   font-style: normal;
 }
+
+@font-face {
+  font-family: 'Eds Market Bold Slant';
+  src: 
+  url('../fonts/eds-market-bold-slant.woff2') format('woff2'), 
+  url('../fonts/eds-market-bold-slant.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Din Condensed Medium';
+  src: 
+  url('../fonts/din-pro-cond-medium.woff2') format('woff2'), 
+  url('../fonts/din-pro-cond-medium.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
 
 @font-face {
   font-family: 'Marr Sans';

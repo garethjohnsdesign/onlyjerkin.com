@@ -157,6 +157,7 @@ $(function() {
 $(function() {
   window.addEventListener('load', AOS.refresh);
 });
+
 }
 
 // 9. Page Transitions

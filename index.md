@@ -3,6 +3,7 @@ title: Only Jerkin
 position: 0
 image: "/assets/img/og-image.png"
 hero-image: "/uploads/only-jerkin-09.jpg"
+covid-text: Click & Collect + Delivery
 hero-text: Triple-Dipped Fried Chicken with Big Caribbean Flavour
 intro-text: Only Jerkin' is dedicated to celebrating the spirit of the Caribbean through
   lip-smacking flavours, music and all round experience. Look out for the jerk bus

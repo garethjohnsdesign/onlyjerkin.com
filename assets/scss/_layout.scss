@@ -131,7 +131,7 @@ p a {
   background-size: cover;
   background-position: center center;
   height: 85vh;
-  background-color: $light-gray;
+  background-color: $black;
 }
 
 // 9. Home
@@ -159,14 +159,14 @@ p a {
 // -----------
 
 .find-us .navigation {
-  @include links ($black, $black)
+  @include links ($white, $white)
 }
 
 .find-us .hamburger-inner {
   &,
   &::before,
   &::after {
-    background-color: $black;
+    background-color: $white;
   }
 }
 
@@ -222,7 +222,7 @@ p a {
   &,
   &::before,
   &::after {
-    background-color: $black;
+    background-color: $white;
   }
 }
 
