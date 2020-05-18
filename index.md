@@ -4,7 +4,7 @@ position: 0
 image: "/assets/img/og-image.png"
 hero-image: "/uploads/only-jerkin-09.jpg"
 covid-text: |-
-  CLICK & COLLECT + DELIVERY
+  ## Click
 
   Due to government restrictions and to keep our customers and team safe, for the time being we are operating click and collect and delivery only.
 hero-text: Triple-Dipped Fried Chicken with Big Caribbean Flavour
